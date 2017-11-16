@@ -16,6 +16,7 @@ def clean():
         with open(DATASETS_PATH + 'raw/' + DATA_PREFIX + i + '.csv', "w") as infile:
             for line in infile:
                 if line[::-1][2:4] == ',,':
+                    pass
 
 
 
