@@ -1,19 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Yelp Fusion API code sample.
-This program demonstrates the capability of the Yelp Fusion API
-by using the Search API to query for businesses by a search term and location,
-and the Business API to query additional information about the top result
-from the search query.
-Please refer to http://www.yelp.com/developers/v3/documentation for the API
-documentation.
-This program requires the Python requests library, which you can install via:
-`pip install -r requirements.txt`.
-Sample usage of the program:
-`python sample.py --term="bars" --location="San Francisco, CA"`
-"""
-from __future__ import print_function
-
 import argparse
 import json
 import pprint
@@ -21,36 +5,13 @@ import requests
 import sys
 import urllib
 import csv
+from urllib2 import HTTPError
+from urllib import quote
+from urllib import urlencode
 
 
-# This client code can run on Python 2.x or 3.x.  Your imports can be
-# simpler if you only need one of those.
-try:
-    # For Python 3.0 and later
-    from urllib.error import HTTPError
-    from urllib.parse import quote
-    from urllib.parse import urlencode
-except ImportError:
-    # Fall back to Python 2's urllib2 and urllib
-    from urllib2 import HTTPError
-    from urllib import quote
-    from urllib import urlencode
-
-
-# OAuth credential placeholders that must be filled in by users.
-# You can find them on
-# https://www.yelp.com/developers/v3/manage_app
 CLIENT_ID = ''
 CLIENT_SECRET = ''
-
-
-with open('yelp_secret.txt', 'rb') as f:
-
-    global CLIENT_ID, CLIENT_SECRET
-    client = f.readlines()
-    CLIENT_ID = client[0].strip()
-    CLIENT_SECRET = client[1].strip()
-
 
 # API constants, you shouldn't have to change these.
 API_HOST = 'https://api.yelp.com'
@@ -60,13 +21,18 @@ TOKEN_PATH = '/oauth2/token'
 GRANT_TYPE = 'client_credentials'
 
 
-
-
 # Defaults for our simple example.
 #DEFAULT_TERM = 'dinner'
 DEFAULT_LOCATION = 'New York, NY'
 SEARCH_LIMIT = 50
 TOTAL_COUNT = 0
+
+def read_credentials():
+    global CLIENT_ID, CLIENT_SECRET
+    with open('yelp_secret.txt', 'rb') as f:
+        client = f.readlines()
+    CLIENT_ID = client[0].strip()
+    CLIENT_SECRET = client[1].strip()
 
 
 def obtain_bearer_token(host, path):
@@ -156,19 +122,16 @@ def query_api(location):
         location (str): The location of the business to query.
     """
     bearer_token = obtain_bearer_token(API_HOST, TOKEN_PATH)
-
-    try:
-        response = search(bearer_token, location)
-    except HTTPError as e:
-        return
+    response = search(bearer_token, location)
     businesses = response.get('businesses')
     if not businesses:
-        return
+        raise KeyError
     with open('ny_data.csv', 'a') as f:
         fieldnames = ['id', 'name', 'price', 'rating', 'phone', 'latitude', 'longitude']
         writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=',')
-        for index,b in enumerate(businesses):
+        for index, b in enumerate(businesses):
             temp = {}
+            print b
             if 'price' in b.keys():
                 temp['price'] = b['price'].encode('utf-8')
             if 'name' in b.keys():
@@ -184,47 +147,29 @@ def query_api(location):
                     temp['latitude'] = str(b['coordinates']['latitude']).encode('utf-8')
                     temp['longitude'] = str(b['coordinates']['longitude']).encode('utf-8')
             if len(temp.keys())==len(fieldnames):
-                # print(temp['id'])
                 writer.writerow(temp)
-
-
-
-
-    # if not businesses:
-    #     print "no business found"
-
-    # business_id = businesses[0]['id']
-    # print(business_id)
-    # print(u'{0} businesses found, querying business info ' \
-    #     'for the top result "{1}" ...'.format(
-    #         len(businesses), business_id))
-    #response = get_business(bearer_token, business_id)
-
-    #print(u'Result for business "{0}" found:'.format(business_id))
-    #pprint.pprint(response, indent=2)
 
 
 def main():
     global TOTAL_COUNT
+    read_credentials()
     fieldnames = ['id', 'name', 'price', 'rating', 'phone', 'latitude', 'longitude']
     with open('ny_data.csv', 'w') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=',')
         writer.writeheader()
-
     try:
         while TOTAL_COUNT < 2818:
             print(TOTAL_COUNT)
-            query_api('New York, NY')
-            TOTAL_COUNT += 1
-
-    except HTTPError as error:
-        sys.exit(
-            'Encountered HTTP error {0} on {1}:\n {2}\nAbort program.'.format(
-                error.code,
-                error.url,
-                error.read(),
-            )
-        )
+            try:
+                query_api('New York, NY')
+            except HTTPError:
+                continue
+            except KeyError:
+                continue
+            else:
+                TOTAL_COUNT += 1
+    except:
+        pass
 
 
 if __name__ == '__main__':

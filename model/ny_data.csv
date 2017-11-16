@@ -1,0 +1,959 @@
+id,name,price,rating,phone,latitude,longitude
+coffee-project-new-york-new-york,Coffee Project New York,$$,4.5,(212) 228-7888,40.72699,-73.98922
+l-industrie-pizzeria-brooklyn,L'industrie Pizzeria,$,5.0,(718) 599-0002,40.71162,-73.95783
+periscope-coffee-new-york,Periscope Coffee,$,5.0,,40.7048841333,-74.0089771816
+la-contenta-new-york,La Contenta,$$,4.5,(212) 432-4180,40.71873,-73.98691
+ruffian-wine-bar-and-chefs-table-new-york,Ruffian Wine Bar & Chef's Table,$$,5.0,(212) 777-0855,40.7264,-73.98411
+mountain-province-brooklyn,Mountain Province,$,4.5,(718) 387-7030,40.7075228032,-73.9503787374
+pita-palace-brooklyn,Pita Palace,$,5.0,(718) 383-0550,40.7172485,-73.9448511
+los-mariscos-new-york,Los Mariscos,$,4.5,(212) 920-4986,40.74207,-74.00565
+l-appart-new-york,L'Appart,$$$$,5.0,(212) 981-8577,40.71156,-74.01533
+miscelanea-ny-new-york,Miscelanea NY,$,5.0,(212) 253-0277,40.72686,-73.99075
+babas-pierogies-brooklyn,Baba's Pierogies,$$,4.5,(718) 222-0777,40.67687,-73.98633
+pisillo-italian-panini-new-york,Pisillo Italian Panini,$$,4.5,(212) 227-3104,40.7104975,-74.0076675
+mughlai-new-york-2,Mughlai,$$,5.0,(212) 533-2828,40.7210905,-73.9840446
+jungsik-new-york,Jungsik,$$$$,4.5,(212) 219-0900,40.7185910159,-74.0088844299
+los-tacos-no-1-new-york,Los Tacos No.1,$,4.5,(212) 256-0343,40.7425547,-74.0060838
+kura-new-york,Kura,$$$$,4.5,(212) 228-1010,40.7266868,-73.9835794
+matcha-cafe-wabi-new-york,Matcha Cafe Wabi,$,4.5,,40.7234758884,-73.9828663319
+manousheh-new-york-2,Manousheh,$,4.5,(347) 971-5778,40.7293499,-74.00134
+arcade-bakery-new-york,Arcade Bakery,$$,4.5,(212) 227-7895,40.7168697866,-74.0066022711
+porto-rico-importing-company-new-york-2,Porto Rico Importing Company,$,4.5,(212) 477-5421,40.729492,-74.001621
+mcnultys-tea-and-coffee-co-new-york,McNulty's Tea & Coffee Co,$$,4.5,(212) 242-5351,40.7334023,-74.0049927
+kam-hing-coffee-shop-new-york-2,Kam Hing Coffee Shop,$,4.5,(212) 925-0425,40.7182480994,-73.9990044119
+julianas-pizza-brooklyn-5,Juliana's Pizza,$$,4.5,(718) 596-6700,40.702615303,-73.9934159994
+lella-alimentari-brooklyn,Lella Alimentari,$,5.0,(718) 599-2625,40.71516,-73.946451
+divyas-kitchen-new-york,Divya's Kitchen,$$,4.5,(212) 477-4834,40.72378,-73.98849
+mission-ceviche-new-york,Mission Ceviche,$$,5.0,(347) 821-6359,40.74108,-74.004628
+rays-candy-store-new-york-2,Ray's Candy Store,$,4.5,(212) 505-7609,40.726324,-73.983699
+the-blue-light-speak-cheesy-brooklyn-2,The Blue Light Speak Cheesy,$,5.0,(714) 519-6374,40.7297972,-73.9562161
+gramercy-tavern-new-york,Gramercy Tavern,$$$$,4.5,(212) 477-0777,40.738527,-73.988417
+prince-street-pizza-new-york-2,Prince Street Pizza,$,4.5,(212) 966-4100,40.7229087706,-73.9944863319
+dough-brooklyn,Dough,$,4.5,(347) 533-7544,40.6890699084,-73.9570917731
+despaña-new-york-2,Despaña,$$,4.5,(212) 219-5050,40.7210686,-73.9979083
+simple-nyc-new-york-3,Simple NYC,$$,4.5,(646) 870-8292,40.71821,-73.99223
+the-gogo-grill-new-york,The GoGo Grill,$,4.5,(646) 425-1905,40.7049245,-74.013706
+beyond-sushi-union-square-new-york-4,Beyond Sushi - Union Square,$$,4.5,(646) 861-2889,40.73302,-73.9858
+nish-nush-new-york,Nish Nush,$$,4.5,(212) 964-1318,40.715688,-74.007695
+wah-fung-no-1-new-york,Wah Fung No 1,$,4.5,(212) 925-5175,40.71735,-73.99457
+voyager-espresso-new-york,Voyager Espresso,$,5.0,(646) 885-6792,40.7087737,-74.0067282
+bohemian-restaurant-new-york,Bohemian Restaurant,$$$,4.5,(212) 388-1070,40.72639,-73.99236
+cheeky-sandwiches-new-york,Cheeky Sandwiches,$,4.5,(646) 504-8132,40.7158,-73.99169
+govindas-vegetarian-brooklyn,Govinda's Vegetarian,$,4.5,(347) 249-4064,40.6876177701,-73.982195715
+jajaja-new-york,Jajaja,$$,4.5,(646) 883-5453,40.7141530317,-73.9904247969
+whiskey-tavern-new-york,Whiskey Tavern,$$,4.5,(212) 374-9119,40.71646,-73.99969
+greenwich-steakhouse-new-york,Greenwich Steakhouse,$$$$,5.0,(212) 553-5000,40.73608,-74.00058
+raku-new-york-4,Raku,$$,4.5,(212) 228-1324,40.7264988089,-73.9866526052
+chickpea-and-olive-brooklyn,Chickpea & Olive,$$,4.5,(347) 994-9442,40.7161526751,-73.9596661914
+doughnut-plant-new-york-4,Doughnut Plant,$$,4.5,(212) 505-3700,40.716394493,-73.988609862
+eleven-madison-park-new-york,Eleven Madison Park,$$$$,4.5,(212) 889-0905,40.7416907417,-73.9872074872
+taim-new-york-3,Taim,$,4.5,(212) 691-1287,40.7360023763,-74.0019588366
+los-tacos-no-1-new-york-3,Los Tacos No.1,$,4.5,(212) 574-4696,40.7575067,-73.9877717
+avant-garden-new-york,Avant Garden,$$$,4.5,(646) 922-7948,40.7261499,-73.98402
+secchu-yokota-new-york,Secchu Yokota,$$$$,5.0,(212) 777-1124,40.72283,-73.98311
+housing-works-bookstore-café-new-york-3,Housing Works Bookstore Café,$,4.5,(212) 334-3324,40.72454,-73.9965931
+t-swirl-crêpe-new-york-15,T-Swirl Crêpe,$,4.5,(646) 726-4166,40.71393,-73.9985899
+bensons-nyc-new-york,Benson's NYC,$$,4.5,(646) 791-5765,40.7218302,-73.9866963
+fresco-gelateria-new-york,Fresco Gelateria,$,4.5,(212) 677-6320,40.728818206,-73.9872518859
+kafe-louverture-brooklyn,Kafe Louverture,$,5.0,(347) 305-3176,40.6829616,-73.9384374
+cafe-katja-new-york,Cafe Katja,$$,4.5,(212) 219-9545,40.7177673,-73.990589
+bibi-new-york,bibi,$$,4.5,(212) 673-2424,40.723937,-73.983519
+gaia-italian-café-new-york,Gaia Italian Café,$,4.5,(646) 350-3977,40.721653,-73.985346
+mcnally-jackson-new-york,McNally Jackson,$$,4.5,(212) 274-1160,40.72339,-73.99598
+chobani-soho-new-york,Chobani SoHo,$,4.5,(212) 364-3970,40.725689549,-74.0010523796
+the-moonlight-mile-brooklyn,The Moonlight Mile,$$,5.0,(718) 389-3904,40.7321141,-73.9578424
+wafas-brooklyn-6,Wafa's,$$,5.0,(718) 576-3547,40.7117118835,-73.9409408569
+12-corners-coffee-new-york,12 Corners Coffee,$,4.5,(212) 625-8888,40.7139624,-73.9903806
+taheni-mediterranean-grill-brooklyn,Taheni Mediterranean Grill,$,4.5,(718) 522-2083,40.67742,-73.98343
+hartleys-brooklyn,Hartley's,$$,5.0,(347) 799-2877,40.6825984,-73.9613433
+song-e-napule-new-york,Song E Napule,$$,4.5,(212) 533-1242,40.7280296,-74.0018334
+three-seat-espresso-and-barber-new-york,Three Seat Espresso & Barber,$$,4.5,(917) 388-2769,40.7270545165,-73.9829625981
+parisi-bakery-new-york,Parisi Bakery,$,4.5,(212) 226-6378,40.7211836,-73.9954365
+august-laura-brooklyn,August Laura,$$,4.5,(718) 858-5483,40.680205,-73.996924
+hawa-smoothies-and-bubble-tea-new-york,Hawa Smoothies & Bubble Tea,$,4.5,(646) 864-1090,40.73063,-73.98163
+round-k-new-york,Round K,$,4.5,(917) 475-1423,40.718906,-73.990966
+senza-gluten-new-york-2,Senza Gluten,$$,4.5,(212) 475-7775,40.7290911051,-74.0003699152
+confectionery-new-york,Confectionery,$$,5.0,(646) 869-0133,40.72732,-73.98305
+breakroom-new-york,Breakroom,$,4.5,(212) 227-2802,40.7166907226,-73.9999440121
+sugarcane-raw-bar-grill-brooklyn-7,SUGARCANE Raw Bar Grill,$$$$,4.0,(718) 473-9555,40.7033991,-73.9914091
+greecologies-new-york,Greecologies,$$,4.5,(212) 941-0100,40.7202330883,-73.9964868578
+fishmarket-restaurant-new-york,Fishmarket Restaurant,$$,4.5,(917) 363-8101,40.70717,-74.00192
+lukes-lobster-fidi-new-york,Luke's Lobster FiDi,$$,4.5,(212) 747-1700,40.7046213004,-74.0107793877
+pates-et-traditions-brooklyn,Pates Et Traditions,$$,4.5,(718) 302-1878,40.714913,-73.954743
+sunnys-bar-brooklyn,Sunny's Bar,$,4.5,(718) 625-8211,40.67569,-74.01689
+lorimer-market-brooklyn,Lorimer Market,$,4.5,(718) 389-2691,40.7155952454,-73.9494400024
+off-the-bridge-new-york-2,Off The Bridge,$,5.0,(212) 775-8599,40.71567,-73.99406
+thursday-kitchen-new-york,Thursday Kitchen,$$,4.5,(646) 755-8088,40.7275,-73.9838
+the-greek-new-york,The Greek,$$$,4.5,(646) 476-3941,40.7237145,-74.0096166
+l-artusi-new-york,L'Artusi,$$$,4.5,(212) 255-5757,40.733714,-74.005068
+traif-brooklyn,Traif,$$$,4.5,(347) 844-9578,40.710658,-73.958872
+the-masalawala-new-york-2,The MasalaWala,$$,4.5,(212) 358-9300,40.72191,-73.98666
+arts-and-crafts-beer-parlor-new-york,Arts and Crafts Beer Parlor,$$,4.5,(646) 678-5263,40.732728301,-73.9977158236
+patisserie-florentine-new-york,Patisserie Florentine,$,5.0,(212) 995-0300,40.72797,-73.98308
+lucali-brooklyn-3,Lucali,$$,4.5,(718) 858-4086,40.6818,-74.00024
+old-man-hustle-new-york-2,Old Man Hustle,$,4.5,(212) 253-7747,40.716267,-73.989698
+koneko-new-york-3,Koneko,$$,4.5,(646) 370-5699,40.72044,-73.98412
+frenchys-food-truck-brooklyn,Frenchy's Food Truck,$,5.0,(646) 468-2861,40.6706988393,-73.9577984065
+il-bambino-new-york,Il Bambino,$$,4.5,(212) 228-2466,40.73313,-73.99867
+bluestockings-new-york,Bluestockings,$$,4.5,(212) 777-6028,40.72139,-73.9889199
+non-solo-piada-new-york,Non Solo Piada,$,4.5,(212) 216-0616,40.75414,-73.99245
+petees-pie-company-new-york,Petee's Pie Company,$,4.5,(212) 966-2526,40.7192158509,-73.9912822511
+yemen-cafe-brooklyn-3,Yemen Cafe,$$,4.5,(718) 834-9533,40.690116,-73.993726
+lois-new-york,Lois,$$,4.5,(212) 475-1400,40.7237175,-73.9789176
+fedoroffs-roast-pork-brooklyn,Fedoroff's Roast Pork,$$,4.5,(347) 384-2222,40.7189526,-73.9555245
+kyo-ya-new-york,Kyo Ya,$$$$,4.5,(212) 982-4140,40.72661,-73.98541
+beehive-oven-biscuit-cafe-brooklyn,BeeHive Oven Biscuit Cafe,$$,4.5,(347) 987-4960,40.7125678,-73.9604523
+el-mate-brooklyn,El Mate,$$,4.5,(718) 222-1102,40.6749782204,-73.9995224876
+amélie-new-york,Amélie,$$,4.5,(212) 533-2962,40.7327,-73.99766
+cafe-mogador-brooklyn,Cafe Mogador,$$,4.5,(718) 486-9222,40.719747,-73.959993
+brooklyn-botanic-garden-brooklyn-2,Brooklyn Botanic Garden,$$,4.5,(718) 307-7133,40.6675899,-73.96198
+bread-and-joe-brooklyn-2,Bread & Joe,$,4.5,(347) 223-4865,40.66485,-73.99383
+rahi-new-york,Rahi,$$$,4.5,(212) 373-8900,40.7360271,-74.0005436
+van-leeuwen-artisan-ice-cream-new-york-4,Van Leeuwen Artisan Ice Cream,$$,4.5,(917) 475-1448,40.7344208102,-74.0012722837
+pause-cafe-new-york,Pause Cafe,$,4.5,(212) 677-5415,40.72123,-73.98408
+la-colombe-coffee-new-york-2,La Colombe Coffee,$$,4.5,(212) 625-1717,40.72396,-73.99643
+orchard-grocer-new-york,Orchard Grocer,$$,4.5,(646) 757-9910,40.71773,-73.99017
+patsys-pizzeria-brooklyn-2,Patsys Pizzeria,$$,4.5,(718) 622-2268,40.6817474365,-73.9762573242
+gotham-bar-and-grill-new-york,Gotham Bar and Grill,$$$$,4.5,(212) 620-4020,40.734186,-73.993696
+pylos-new-york,Pylos,$$$,4.5,(212) 473-0220,40.72608,-73.98415
+sushi-nakazawa-new-york,Sushi Nakazawa,$$$$,4.5,(212) 924-2212,40.7317465229,-74.0045493828
+blacktail-new-york,BlackTail,$$$,4.5,(212) 785-0153,40.7044769199,-74.0174372309
+everybody-eats-brooklyn,Everybody Eats,$$,4.5,(718) 369-7444,40.67703,-73.98658
+pommes-frites-new-york-2,Pommes Frites,$,4.5,(212) 674-1234,40.730022,-74.000152
+stone-bridge-pizza-and-salad-new-york,Stone Bridge Pizza & Salad,$$,5.0,(646) 791-5690,40.75225,-73.98061
+harry-and-idas-meat-and-supply-new-york,Harry & Ida's Meat and Supply,$$,4.5,(646) 864-0967,40.729,-73.981689
+char-sue-new-york,Char Sue,$$,4.5,(646) 484-9241,40.7196000925,-73.9879152551
+angels-share-new-york,Angel's Share,$$,4.5,(212) 777-5415,40.729709753,-73.9891492245
+kazunori-the-original-hand-roll-bar-new-york-2,KazuNori  | The Original Hand Roll Bar,$$,4.5,(347) 594-5940,40.74519,-73.98824
+bar-b-new-york,Bar B,$$,4.5,(212) 229-1888,40.739501801,-73.9990556563
+atera-new-york,Atera,$$$$,4.5,(212) 226-1444,40.71694,-74.0057
+rizzos-fine-pizza-new-york-4,Rizzo's Fine Pizza,$$,4.5,(646) 454-1262,40.720852,-73.984456
+ny-dosas-new-york,NY Dosas,$,4.5,(917) 710-2092,40.730838608,-73.9986377977
+bombay-grill-brooklyn-5,Bombay Grill,$$,4.5,(718) 484-0004,40.6839,-73.9541799
+shu-jiao-fu-zhou-cuisine-restaurant-new-york,Shu Jiao Fu Zhou Cuisine Restaurant,$,4.5,(212) 625-2532,40.7184290358,-73.991692898
+la-sirene-new-york,La Sirene,$$$,4.5,(212) 925-3061,40.7243642217,-74.0057086945
+ammazzacaffè-brooklyn,Ammazzacaffè,$$,5.0,(929) 250-2875,40.7113172,-73.9446243
+xixa-brooklyn,Xixa,$$$,4.5,(718) 388-8860,40.710505,-73.958466
+the-boil-new-york-3,The Boil,$$,4.5,(212) 925-8815,40.71974,-73.99339
+and-pizza-new-york-3,&pizza,$$,4.5,(646) 968-4634,40.74519,-73.98824
+galata-mediterranean-cuisine-new-york,Galata Mediterranean Cuisine,$$,4.5,(212) 683-9206,40.74522,-73.9776
+the-eddy-new-york,The Eddy,$$$,4.5,(646) 895-9884,40.7264594,-73.986646
+proof-coffee-roasters-new-york,PROOF Coffee Roasters,$$,5.0,(212) 233-3985,40.709487,-74.008651
+sunny-and-annies-new-york,Sunny and Annie's,$,4.5,(212) 677-3131,40.7245959526,-73.9815849066
+ise-restaurant-new-york-3,Ise Restaurant,$$,4.5,(212) 228-4152,40.7291024,-73.9900618
+bobwhite-counter-new-york-4,Bobwhite Counter,$$,4.5,(212) 228-2972,40.7236015861,-73.979016246
+wafels-and-dinges-new-york,Wafels & Dinges,$,4.5,(866) 429-7329,40.7406730652,-73.9986419678
+nish-nush-new-york-5,Nish Nush,$$,4.5,(212) 577-6474,40.709472,-74.007949
+breads-bakery-new-york,Breads Bakery,$$,4.5,(212) 633-2253,40.7366,-73.991814
+peasant-stock-new-york-2,Peasant Stock,$,4.5,(917) 601-9776,40.7188335,-73.9878529
+raines-law-room-new-york,Raines Law Room,$$$,4.5,,40.73869,-73.99462
+marcha-cocina-new-york-2,Marcha Cocina,$$,4.5,(646) 781-9147,40.7243303735,-73.9788635413
+ugly-baby-brooklyn-3,Ugly Baby,$$,4.5,(347) 689-3075,40.67793,-73.996014
+dan-and-johns-wings-new-york-3,Dan and John's Wings,$$,4.5,(917) 456-8808,40.7278557,-73.9853134
+musashi-asian-cuisine-brooklyn-2,Musashi Asian Cuisine,$$,4.5,(718) 388-5081,40.7111358643,-73.951423645
+cava-new-york-4,CAVA,$$,4.5,(646) 416-6440,40.7338763907,-73.9896700913
+sugarcube-long-island-city-2,SugarCube,$$,4.5,(929) 424-5616,40.7424111533,-73.953329511
+riverdel-brooklyn,Riverdel,$$,5.0,(718) 928-7702,40.67337,-73.96307
+the-food-sermon-kitchen-brooklyn,The Food Sermon Kitchen,$$,4.5,(718) 484-7555,40.66477,-73.95352
+top-hops-new-york,Top Hops,$$,4.5,(212) 254-4677,40.71842,-73.98998
+yerba-buena-new-york,Yerba Buena,$$$,4.0,(212) 529-2919,40.72292,-73.98599
+the-wayland-new-york,The Wayland,$$,4.5,(212) 777-7022,40.7251,-73.9778
+roll-play-brooklyn-2,Roll Play,$,5.0,,40.7214853,-73.9621174
+pocket-bar-nyc-new-york,Pocket Bar NYC,$$,4.5,(646) 682-9062,40.7633645,-73.9922985
+honest-chops-butchery-new-york,Honest Chops Butchery,$$,4.5,(212) 388-0762,40.728951,-73.986107
+siggys-good-food-new-york,Siggy's Good Food,$$,4.5,(212) 226-5775,40.72474,-73.99309
+brooklyn-kolache-brooklyn,Brooklyn Kolache,$,4.5,(718) 398-1111,40.6907913078,-73.9556479454
+williamsburg-smorgasburg-saturday-brooklyn,Williamsburg Smorgasburg - Saturday,$$,4.5,(718) 928-6603,40.721021,-73.962177
+kikis-new-york,Kiki's,$$,4.5,(646) 882-7052,40.7144971858,-73.9918553931
+la-colombe-coffee-new-york-4,La Colombe Coffee,$$,4.5,(212) 677-5834,40.728221,-73.993165
+tac-n-roll-new-york-3,Tac N Roll,$,4.5,(212) 353-0800,40.7252676,-73.9877743
+u-gu-brooklyn-2,U-gu,$$,4.5,(718) 857-0222,40.69393,-73.96284
+dear-irving-new-york,Dear Irving,$$$,4.5,,40.7360568971,-73.9872401006
+best-bagel-and-coffee-new-york,Best Bagel and Coffee,$,4.5,(212) 564-4409,40.7522683,-73.9910861
+trapizzino-new-york,Trapizzino,$,4.5,(212) 475-2555,40.72043,-73.98894
+il-sogno-secondo-brooklyn,Il Sogno Secondo,$$,4.5,(929) 295-9790,40.67329,-73.98307
+bowery-ballroom-new-york,Bowery Ballroom,$$,4.5,(212) 533-2111,40.72036,-73.99338
+ling-kee-beef-jerky-new-york,Ling Kee Beef Jerky,$,4.5,(212) 965-1206,40.71466,-73.99148
+natural-blend-brooklyn,Natural Blend,$,4.5,(718) 783-1737,40.6738776,-73.9628763
+the-musket-room-new-york,The Musket Room,$$$,4.5,(212) 219-0764,40.72392,-73.99378
+ki-sushi-brooklyn-5,Ki Sushi,$$$,5.0,(718) 230-1381,40.6784417729,-73.9734394269
+aska-brooklyn-3,Aska,$$$$,4.5,(929) 337-6792,40.71226,-73.96641
+top-thai-greenwich-new-york,Top Thai Greenwich,$$,4.5,(646) 726-4418,40.72977,-73.99939
+la-margarita-pizza-new-york,La Margarita Pizza,$,4.5,(917) 261-4983,40.72084,-73.98808
+frisson-espresso-new-york,Frisson Espresso,$,4.5,(646) 850-3928,40.7608108521,-73.9889984131
+kottu-house-new-york,Kottu House,$$,4.5,(646) 781-9222,40.71822,-73.989659
+paulie-gees-brooklyn,Paulie Gee's,$$,4.5,(347) 987-3747,40.729546,-73.958568
+4-charles-prime-rib-new-york,4 Charles Prime Rib,$$$,4.5,(212) 561-5992,40.73513,-74.00065
+mamouns-falafel-new-york-2,Mamoun's Falafel,$,4.0,(212) 674-8685,40.7302874,-74.0004383
+featherweight-brooklyn,Featherweight,$$,4.5,(646) 257-0946,40.706384182,-73.943111971
+pi-bakerie-new-york,Pi Bakerie,$$,4.5,(212) 226-2701,40.723644,-74.00325
+taureau-new-york,Taureau,$$$,4.5,(212) 228-2222,40.724521,-74.005683
+the-topaz-brooklyn-2,The Topaz,$$,4.5,(347) 770-7217,40.70734,-73.93949
+mias-bakery-brooklyn,Mia's Bakery,$,4.5,(347) 987-3194,40.68697,-73.98999
+mcsorleys-old-ale-house-new-york,McSorleys Old Ale House,$,4.0,(212) 473-9148,40.72884,-73.98965
+rockwood-music-hall-new-york,Rockwood Music Hall,$$,4.5,(212) 477-4155,40.722332,-73.988571
+blue-ribbon-brasserie-soho-new-york,Blue Ribbon Brasserie - SoHo,$$$,4.5,(212) 274-0404,40.725456,-74.003027
+blue-hill-new-york,Blue Hill,$$$$,4.5,(212) 539-1776,40.7320640252,-73.9996931019
+compagnie-des-vins-surnaturels-new-york-2,Compagnie des Vins Surnaturels,$$$,4.5,(212) 343-3660,40.7205157,-73.9981652
+pokébāb-brooklyn-2,Pokébāb,$$,4.5,(718) 599-2425,40.71683,-73.95866
+the-alcove-sunnyside,The Alcove,$$,5.0,(347) 813-4159,40.7459065,-73.915103
+le-bernardin-new-york,Le Bernardin,$$$$,4.5,(212) 554-1515,40.761557,-73.981763
+taste-of-persia-nyc-new-york-2,Taste of Persia NYC,$$,4.5,(917) 592-3467,40.738933,-73.992902
+sugarburg-brooklyn,Sugarburg,$$,4.5,(917) 618-3029,40.7141182158,-73.9516061917
+duffs-brooklyn-brooklyn,Duff's Brooklyn,$,4.5,(718) 599-2092,40.70885,-73.95787
+destefanos-steakhouse-brooklyn,DeStefano's Steakhouse,$$$,4.5,(718) 384-2836,40.71503,-73.94767
+stumptown-coffee-roasters-new-york-2,Stumptown Coffee Roasters,$$,4.5,(347) 414-7802,40.7328193931,-73.9979619991
+aquagrill-new-york,Aquagrill,$$$,4.0,(212) 274-0505,40.7253545577,-74.0037010932
+pepolino-restaurant-new-york,Pepolino Restaurant,$$$,4.5,(212) 966-9983,40.72077,-74.00489
+l-albero-dei-gelati-brooklyn-2,L'Albero dei Gelati,$$,4.5,(718) 788-2288,40.671932,-73.9836569
+the-royal-palms-shuffleboard-club-brooklyn-2,The Royal Palms Shuffleboard Club,$$,4.5,(347) 223-4410,40.67886249,-73.9869758019
+rubirosa-new-york-2,Rubirosa,$$,4.0,(212) 965-0500,40.72275,-73.99622
+the-wilky-brooklyn,The Wilky,$$,4.5,(718) 484-7458,40.688018,-73.927352
+burger-and-lobster-new-york,Burger & Lobster,$$,4.0,(646) 833-7532,40.74016,-73.993372
+marc-forgione-new-york-2,Marc Forgione,$$$,4.0,(212) 941-9401,40.71647,-74.00956
+xe-may-sandwich-shop-new-york,Xe May Sandwich Shop,$,4.5,(212) 388-1688,40.7275325,-73.9848195
+harney-and-sons-soho-new-york,Harney & Sons SoHo,$$,4.5,(212) 933-4853,40.721623475,-73.9996463083
+garfunkels-new-york,Garfunkel's,$$,4.5,(212) 529-6900,40.71943,-73.98508
+the-saint-austere-brooklyn,The Saint Austere,$$,4.5,(718) 388-0012,40.7114604,-73.9476182
+the-dead-rabbit-new-york,The Dead Rabbit,$$,4.0,(646) 422-7906,40.70329,-74.01102
+caracas-arepa-bar-new-york,Caracas Arepa Bar,$$,4.0,(212) 228-5062,40.7269655,-73.9854223
+the-river-café-brooklyn-3,The River Café,$$$$,4.0,(718) 522-5200,40.70318,-73.9946499
+jonnys-panini-new-york-10,Jonny's Panini,$$,4.5,(646) 484-5733,40.7557582,-73.9949689
+c-and-b-new-york,C&B,$$,4.5,(212) 674-2985,40.7252271901,-73.981630297
+the-wild-son-new-york,The Wild Son,$$,4.5,(212) 727-7900,40.74073,-74.00836
+lam-zhou-handmade-noodle-and-dumpling-new-york,Lam Zhou Handmade Noodle & Dumpling,$,4.0,(646) 645-7288,40.71556,-73.99692
+tuome-new-york-2,Tuome,$$$,4.5,(646) 833-7811,40.7241248272,-73.9828906264
+stumptown-coffee-roasters-new-york,Stumptown Coffee Roasters,$$,4.5,(855) 711-3385,40.7456663381,-73.9880916349
+goa-taco-new-york,goa taco,$,4.5,(347) 276-5103,40.71887,-73.99003
+blue-ribbon-downing-street-bar-new-york-2,Blue Ribbon Downing Street Bar,$$,4.5,(212) 691-0404,40.7292048797,-74.0038925739
+juicy-spot-cafe-new-york,Juicy Spot Cafe,$,4.5,(212) 933-0478,40.7191902882,-73.9886155021
+juicology-new-york,Juicology,$,4.5,(212) 695-0628,40.7491633037,-73.9958809994
+wowfulls-new-york-4,Wowfulls,$,4.5,(917) 299-4616,40.7210634,-73.9835079
+denizen-brooklyn,Denizen,$$,4.5,(929) 337-6412,40.7162683,-73.9554395
+sushi-azabu-new-york,Sushi Azabu,$$$$,4.0,(212) 274-0428,40.7222930325,-74.0098838049
+kopitiam-new-york,Kopitiam,$,4.5,(646) 894-7081,40.715,-73.99172
+prologue-coffee-room-new-york-2,Prologue Coffee Room,$,4.5,(646) 504-5353,40.7187029822,-74.0004725371
+amor-y-amargo-new-york,Amor y Amargo,$$,4.5,(212) 614-6818,40.72572,-73.98428
+brooklyn-banh-mi-brooklyn,Brooklyn Banh Mi,$,4.5,(347) 260-8231,40.71357,-73.94941
+amaranto-mexican-restaurant-brooklyn,Amaranto Mexican Restaurant,$$,4.5,(718) 576-6001,40.703111,-73.921892
+charter-coffeehouse-brooklyn,Charter Coffeehouse,$,5.0,(347) 721-3735,40.713329,-73.944478
+b-side-pizza-and-wine-bar-new-york,B Side Pizza & Wine Bar,$$,4.5,(646) 679-7225,40.76394,-73.9883399
+sams-falafel-stand-new-york,Sam's Falafel Stand,$,4.5,,40.709039682,-74.0113380915
+local-and-vine-new-york,Local & Vine,$$,4.5,(212) 337-3414,40.72528,-74.0074
+punjabi-grocery-and-deli-new-york,Punjabi Grocery & Deli,$,4.5,(212) 533-3356,40.7227225424,-73.9866224577
+lukes-lobster-east-village-new-york,Luke's Lobster East Village,$$,4.0,(212) 387-8487,40.726940155,-73.9852600098
+luigis-pizzeria-brooklyn-4,Luigi's Pizzeria,$,4.5,(718) 783-2430,40.6896463916,-73.9654789677
+court-street-grocers-brooklyn,Court Street Grocers,$$,4.5,(718) 722-7229,40.676244,-73.998717
+the-hop-shop-brooklyn-brooklyn,The Hop Shop Brooklyn,$,5.0,(718) 852-2184,40.68747,-74.00125
+adoro-lei-new-york,Adoro Lei,$$,4.5,(646) 666-5096,40.725612,-74.007916
+taco-mahal-new-york,Taco Mahal,$,4.5,(646) 719-1553,40.7323553689,-74.0035128797
+brooklyn-roasting-company-brooklyn-2,Brooklyn Roasting Company,$$,4.0,(718) 855-1000,40.704228,-73.986241
+samba-kitchen-and-bar-new-york,Samba Kitchen & Bar,$$,4.5,(212) 256-0170,40.760948,-73.991149
+streecha-new-york,Streecha,$,4.5,(212) 677-7160,40.728496,-73.9889284
+café-beit-brooklyn-3,Café Beit,$,4.5,(917) 909-1430,40.718678,-73.9571094
+murrays-cheese-bar-new-york,Murray's Cheese Bar,$$,4.0,(646) 476-8882,40.7312,-74.00322
+cafe-belle-new-york,Cafe Belle,$$,5.0,(212) 837-1605,40.72437,-73.99509
+south-brooklyn,South,$,4.5,(718) 832-4720,40.66313,-73.99117
+karczma-brooklyn,Karczma,$$,4.5,(718) 349-1744,40.729977,-73.955128
+il-posto-accanto-new-york,Il Posto Accanto,$$,4.5,(212) 228-3562,40.72238,-73.98403
+loi-estiatorio-new-york,Loi Estiatorio,$$$,4.5,(212) 713-0015,40.765385,-73.978002
+antica-ristorante-new-york,Antica Ristorante,$$$,4.5,(212) 480-3880,40.7039355145,-74.0121731758
+blueprint-brooklyn-2,Blueprint,$$,4.5,(718) 622-6644,40.6769,-73.980411
+rice-noodle-cart-new-york,Rice Noodle Cart,$,4.5,,40.7139045494,-73.9901232849
+per-se-new-york,Per Se,$$$$,4.5,(212) 823-9335,40.768152889,-73.9827629624
+porto-rico-importing-brooklyn,Porto Rico Importing,$,4.5,(718) 782-1200,40.7111625671,-73.9467086792
+daniel-new-york-4,Daniel,$$$$,4.5,(212) 288-0033,40.7667736798,-73.967607
+postmark-cafe-brooklyn,Postmark Cafe,$,4.5,(718) 768-2613,40.6710865,-73.9852
+thai-villa-new-york-2,Thai Villa,$$,4.5,(212) 802-9999,40.73902,-73.99065
+t-swirl-crêpe-new-york-16,T-Swirl Crêpe,$,4.5,(212) 614-0200,40.7325935,-73.9851807
+balvanera-new-york-3,Balvanera,$$$,4.5,(212) 533-3348,40.72063,-73.98539
+marthas-country-bakery-brooklyn-2,Martha's Country Bakery,$$,4.5,(718) 599-0900,40.7148440085,-73.9604490995
+alphabet-city-beer-company-new-york,Alphabet City Beer Company,$$,4.5,(646) 422-7103,40.723652,-73.978836
+okonomi-brooklyn,Okonomi,$$,4.5,,40.712622,-73.9487843
+ringolevio-brooklyn,Ringolevio,$$,4.5,(347) 335-0056,40.71907,-73.94337
+mace-new-york-4,Mace,$$,4.5,(347) 866-7739,40.72546,-73.97816
+madman-espresso-new-york-2,Madman Espresso,$,4.5,(212) 505-2233,40.7320887578,-73.98382787
+kitchen-grill-indian-restaurant-brooklyn,Kitchen Grill Indian Restaurant,$$,4.5,(718) 789-7800,40.6827929,-73.9644377
+classic-coffee-shop-new-york,Classic Coffee Shop,$,5.0,(917) 685-3306,40.71568,-73.99079
+cafe-patoro-new-york,Cafe Patoro,$,4.5,(917) 262-0031,40.7072720975,-74.0023160353
+black-mountain-wine-house-brooklyn,Black Mountain Wine House,$$,4.5,(718) 522-4340,40.68086,-73.99155
+banh-mi-saigon-new-york,Banh Mi Saigon,$,4.0,(212) 941-1541,40.71936,-73.996673
+flipn-toss-new-york,Flip'n Toss,$$,5.0,(212) 645-0904,40.73334,-74.00362
+sweet-moment-new-york,Sweet Moment,$$,4.5,(212) 226-8724,40.71763,-73.99714
+bep-ga-new-york-4,Bep Ga,$$,4.5,(917) 261-4716,40.71701,-73.99324
+red-lantern-bicycles-brooklyn,Red Lantern Bicycles,$$,4.5,(347) 889-5338,40.69347,-73.97243
+gabriel-kreuther-new-york,Gabriel Kreuther,$$$$,4.5,(212) 257-5826,40.754546,-73.982556
+scalini-fedeli-new-york,Scalini Fedeli,$$$$,4.5,(212) 528-0400,40.7173964385,-74.0093277537
+jackbar-brooklyn,Jackbar,$,4.5,,40.7118301392,-73.9571762085
+suns-organic-garden-new-york,Sun's Organic Garden,$$,4.5,(917) 362-6662,40.71563,-73.99874
+roots-café-brooklyn-2,Roots Café,$,4.5,(615) 419-7877,40.662904,-73.9916337
+rocket-pig-new-york,Rocket Pig,$$,4.5,(212) 645-5660,40.74834,-74.00338
+takashi-new-york,Takashi,$$$,4.0,(212) 414-2929,40.7313524,-74.0065048
+tørst-brooklyn,TØRST,$$,4.5,(718) 389-6034,40.7233949,-73.950856
+zenkichi-brooklyn,Zenkichi,$$$,4.0,(718) 388-8985,40.7189722,-73.9608301
+sottocasa-pizzeria-boerum-hill-brooklyn,Sottocasa Pizzeria- Boerum Hill,$$,4.5,(718) 852-8758,40.68838,-73.98895
+zest-new-york-3,Zest,$$,4.0,(212) 677-3158,40.7178344727,-73.9899597168
+cocoron-new-york-3,Cocoron,$$,4.0,(212) 477-1212,40.72031,-73.99305
+mas-farmhouse-new-york,Mas Farmhouse,$$$$,4.0,(212) 255-1790,40.729303,-74.003774
+taim-mobile-falafel-and-smoothie-truck-new-york,Taim Mobile Falafel & Smoothie Truck,$,4.5,(212) 219-2216,40.7345542908,-74.0062103271
+reyes-deli-and-grocery-brooklyn,Reyes Deli & Grocery,$,4.5,(718) 369-3211,40.66731,-73.99162
+snax-spot-new-york,Snax Spot,$$,4.5,(917) 475-1516,40.75674,-73.993461
+little-choc-apothecary-brooklyn-2,Little Choc Apothecary,$$,4.5,(718) 963-0420,40.71192,-73.95721
+st-gambrinus-beer-shoppe-brooklyn,St Gambrinus Beer Shoppe,$$,4.5,(347) 763-2261,40.685226,-73.979782
+the-doughnut-project-new-york,The Doughnut Project,$,4.5,(212) 691-5000,40.731151,-74.003547
+nam-nam-brooklyn-2,Nam Nam,$,4.5,(718) 302-9200,40.70728,-73.94509
+boba-guys-new-york,Boba Guys,$,4.0,,40.720657,-73.984542
+defontes-brooklyn,Defontes,$$,4.5,(718) 625-8052,40.6789444358,-74.0053691263
+o-ya-new-york,O Ya,$$$$,4.5,(212) 204-0200,40.74283,-73.98319
+patrizias-brooklyn,Patrizia's,$$,4.0,(718) 218-9272,40.710939,-73.967504
+bunna-cafe-brooklyn,Bunna Cafe,$$,4.5,(347) 295-2227,40.705042,-73.928078
+archies-bar-and-pizza-brooklyn,Archie's Bar & Pizza,$$,4.5,(347) 915-2244,40.699703,-73.928512
+gentleman-farmer-fort-greene-brooklyn-2,Gentleman Farmer Fort Greene,$$$,4.5,(929) 295-0784,40.692995,-73.971074
+cheong-fun-cart-new-york,Cheong Fun Cart,$,4.5,,40.7176279773,-73.9963736857
+piz-zetta-brooklyn-2,Piz-zetta,$,4.5,(718) 422-7878,40.6912834071,-73.9906029201
+banh-mi-zon-new-york-4,Banh Mi Zon,$,4.5,(646) 524-6384,40.7256861,-73.9842575
+the-boil-new-york-5,The Boil,$$,4.0,(646) 833-7110,40.7302644714,-73.9943788113
+a-and-a-bake-and-doubles-shop-brooklyn,A&A Bake & Doubles Shop,$,4.5,(917) 892-9562,40.6809,-73.94953
+mr-moustache-new-york-2,Mr Moustache,$$,4.5,(917) 543-8158,40.733038081,-73.985901922
+subject-new-york-4,Subject,$$,4.5,(646) 422-7898,40.721537,-73.984779
+seed-mill-new-york,Seed + Mill,$,4.5,,40.7420723,-74.0056454
+che-cafe-new-york-2,Che Cafe,$,4.5,(212) 420-1250,40.72702,-73.98608
+piacere-new-york,Piacere,$$,4.0,(212) 219-4080,40.7196979,-73.9951175
+davidstea-new-york-8,DavidsTea,$$,4.5,(212) 414-8599,40.73165,-74.003
+midwinter-kitchen-new-york,Midwinter Kitchen,$$,4.5,(212) 505-8500,40.73542,-73.98293
+flatiron-room-new-york,Flatiron Room,$$$,4.5,(212) 725-3860,40.7446212769,-73.9904174805
+post-office-brooklyn-6,Post Office,$$,4.5,(718) 963-2574,40.710786,-73.958495
+copper-and-oak-new-york-5,Copper & Oak,$$$,4.5,(212) 460-5546,40.721065,-73.98986
+mamouns-falafel-new-york,Mamoun's Falafel,$,4.0,(646) 870-5785,40.7288849575,-73.9884633484
+rafele-ristorante-new-york,Rafele Ristorante,$$$,4.5,(212) 242-1999,40.7309471231,-74.0041171779
+scarpetta-new-york,Scarpetta,$$$,4.0,(212) 691-0555,40.7407863901,-74.0047077093
+sons-of-thunder-new-york-4,Sons of Thunder,$$,4.5,(646) 863-2212,40.74786,-73.97589
+sushi-gallery-brooklyn,Sushi Gallery,$$,4.5,(718) 222-0308,40.6975970682,-73.9933660829
+sushumai-asian-fusion-new-york-2,Sushumai Asian Fusion,$$,5.0,(212) 777-8808,40.7211610691,-73.9872866124
+livenrich-new-york,Livenrich,$$,5.0,(212) 602-1388,40.70826,-74.0141
+ki-sushi-brooklyn,Ki Sushi,$$,4.0,(718) 935-0575,40.68764,-73.9901
+chefs-table-at-brooklyn-fare-new-york,Chef's Table at Brooklyn Fare,$$$$,4.5,(718) 243-0050,40.7561930774,-73.9966090932
+blank-cafe-and-bistro-brooklyn-3,Blank Cafe & Bistro,$,4.5,,40.7107804265,-73.9678972634
+nai-tapas-new-york-2,Nai Tapas,$$,4.0,(212) 677-1030,40.729074,-73.983895
+attaboy-new-york,Attaboy,$$$,4.0,(855) 877-9900,40.7188874,-73.9913351
+saigon-vietnamese-sandwich-deli-new-york,Saigon Vietnamese Sandwich Deli,$,4.0,(212) 219-8341,40.7199582,-73.9958631
+bistro-petit-brooklyn,Bistro Petit,$$,4.5,(718) 782-2582,40.7119423,-73.9611872
+sweet-chick-new-york,Sweet Chick,$$,4.0,(646) 657-0233,40.7217399,-73.98739
+laughing-man-coffee-and-tea-new-york-3,Laughing Man Coffee & Tea,$$,4.5,(212) 680-1111,40.7172089,-74.0101471
+smalls-jazz-club-new-york,Smalls Jazz Club,$$,4.5,(646) 476-4346,40.7343572337,-74.0028009116
+bowery-road-new-york-3,Bowery Road,$$$,4.5,(212) 432-1324,40.7333427,-73.9901924
+sunita-bar-new-york,Sunita Bar,$$,4.5,(212) 253-8860,40.7188938,-73.9870096
+flip-sigi-new-york-2,Flip Sigi,$$,4.5,(917) 639-3262,40.73405,-74.00642
+house-of-small-wonder-brooklyn,House of Small Wonder,$$,4.0,(718) 388-6160,40.7188839656,-73.9606090849
+nostro-ristorante-brooklyn,Nostro Ristorante,$$,4.5,(929) 337-7053,40.66071,-73.99429
+mahji-brooklyn,Mahji,$$,4.5,(917) 909-1353,40.7114433255,-73.9476156975
+cheese-grille-new-york,Cheese Grille,$,4.0,(212) 460-9383,40.7219115,-73.9886709
+nitecap-new-york,Nitecap,$$,4.0,,40.719125,-73.985732
+sun-hing-lung-co-new-york-3,Sun Hing Lung Co,$,4.5,,40.7129253168,-73.9949862286
+benemon-new-york,Benemon,$$,4.5,(212) 614-3006,40.7255058289,-73.9883804321
+cup-of-brooklyn-brooklyn,Cup of Brooklyn,$,5.0,(718) 552-2221,40.6894922336,-73.92260883
+table-87-coal-oven-pizza-brooklyn-3,Table 87 Coal Oven Pizza,$$,4.5,(718) 797-9300,40.6912193298,-73.9973449707
+zenchai-new-york-3,Zenchai,$,4.5,(347) 508-3518,40.72029,-73.98853
+injera-new-york,Injera,$$,4.5,(212) 206-9330,40.7370922,-74.0051453
+post-new-york-2,POST,$$,4.5,(646) 930-2724,40.722976,-73.983016
+zizi-limona-brooklyn,Zizi Limona,$$,4.0,(347) 763-1463,40.712256,-73.957053
+brooklyn-ice-house-brooklyn,Brooklyn Ice House,$,4.5,(718) 222-1865,40.67919,-74.011099
+domodomo-new-york,DOMODOMO,$$$,4.0,(646) 707-0301,40.72808,-74.00157
+bar-goto-new-york,Bar Goto,$$,4.5,(212) 475-4411,40.72277,-73.98989
+pearl-oyster-bar-new-york,Pearl Oyster Bar,$$$,4.0,(212) 691-8211,40.7314099,-74.00197
+eight-turn-crêpe-brooklyn,Eight Turn Crêpe,$,4.0,(929) 358-7988,40.6912509,-73.9832589
+norma-gastronomia-siciliana-new-york,NORMA Gastronomia Siciliana,$$,4.5,(212) 889-0600,40.743553,-73.980026
+yokoya-new-york-5,Yokoya,$$,4.5,(212) 388-1388,40.72254,-73.98917
+boutros-brooklyn,Boutros,$$$,4.5,(718) 403-0055,40.6901481294,-73.9935445413
+the-commissioner-brooklyn,The Commissioner,$,5.0,(347) 689-3968,40.67487,-73.98137
+the-burgary-new-york,The Burgary,$$,4.5,(212) 529-6900,40.7193370804,-73.9850228947
+laojie-hotpot-brooklyn-4,Laojie Hotpot,$$,4.5,(718) 431-0026,40.6389709339,-74.0046846944
+ippudo-east-village-new-york,Ippudo East Village,$$,4.0,(212) 388-0088,40.730922,-73.990167
+nuyorican-poets-cafe-new-york,Nuyorican Poets Cafe,$,4.0,(212) 505-8183,40.72194,-73.98183
+timna-new-york-4,Timna,$$$,4.5,(646) 964-5181,40.72722,-73.98388
+schilling-new-york,Schilling,$$$,4.5,(212) 406-1200,40.70857,-74.014
+teado-tea-shop-new-york-5,Teado Tea Shop,$,4.0,(212) 226-7687,40.7172143,-73.9949616
+bite-new-york-3,Bite,$,4.0,(212) 677-3123,40.733163,-73.986158
+le-botaniste-new-york,Le Botaniste,$$,4.5,(917) 262-0766,40.7649986275,-73.965983028
+asian-spicy-curry-pop-up-new-york,Asian Spicy Curry Pop-up,$,4.5,(212) 608-7440,40.715031,-73.99931
+taverna-kyclades-new-york-3,Taverna Kyclades,$$,4.0,(212) 432-0011,40.731078247,-73.9825163037
+battersby-brooklyn,Battersby,$$$,4.0,(718) 852-8321,40.6830711,-73.99263
+51st-bakery-and-cafe-long-island-city,51st Bakery and Cafe,$,4.5,(718) 707-0554,40.7422765542,-73.9553309153
+barano-brooklyn,Barano,$$$,4.5,(347) 987-4500,40.71037,-73.96794
+juicy-spot-cafe-new-york-2,Juicy Spot Cafe,$,4.0,(646) 870-0188,40.7147999,-73.998629
+rubys-cafe-new-york-2,Ruby's Cafe,$$,4.0,(212) 925-5755,40.72233,-73.99634
+hummus-market-brooklyn,Hummus Market,$$,4.5,(718) 599-5600,40.715385,-73.944839
+ba-xuyen-brooklyn-2,Ba Xuyen,$,4.5,(718) 633-6601,40.64528,-73.9997099
+mr-jones-supper-club-new-york,Mr. Jones Supper Club,$$$$,5.0,,40.7272842,-73.993628
+taste-of-heaven-brooklyn,Taste of Heaven,$$,5.0,(718) 576-3146,40.71715,-73.94054
+olea-brooklyn-2,Olea,$$,4.0,(718) 643-7003,40.6877844,-73.9706046
+taim-falafel-new-york,Taim Falafel,$,4.0,(212) 219-0600,40.7221,-73.99608
+bosie-tea-parlor-new-york,Bosie Tea Parlor,$$,4.0,(212) 352-9900,40.73126,-74.00361
+farmer-in-the-deli-brooklyn,Farmer In the Deli,$,4.5,(718) 875-9067,40.69333,-73.97172
+rabbit-house-new-york,Rabbit House,$$,4.5,(212) 343-4200,40.717205,-73.993133
+mighty-quinns-barbeque-new-york,Mighty Quinn's Barbeque,$$,4.0,(212) 677-3733,40.727574,-73.988623
+gimme-coffee-new-york,Gimme! Coffee,$,4.0,(212) 226-4011,40.722339,-73.994918
+peppinos-brick-oven-pizza-and-restaurant-brooklyn-2,Peppino's Brick Oven Pizza & Restaurant,$$,4.5,(718) 768-7244,40.668221,-73.986936
+il-falco-long-island-city,Il Falco,$$$,4.5,(718) 707-0009,40.7476595714,-73.9455319124
+pearl-gate-new-york,Pearl Gate,$,4.5,(718) 768-9898,40.6679382,-73.9876175
+abc-kitchen-new-york,ABC Kitchen,$$$,4.0,(212) 475-5829,40.738085,-73.989472
+van-leeuwen-artisan-ice-cream-new-york-3,Van Leeuwen Artisan Ice Cream,$$,4.0,(646) 476-3865,40.7277,-73.98768
+hemispheres-new-york,Hemispheres,$,5.0,,40.7416873877,-74.0039697809
+beyond-sushi-midtown-west-new-york-2,Beyond Sushi Midtown West,$$,4.5,(646) 964-5097,40.763214,-73.977242
+tony-dragons-grille-new-york,Tony Dragon's Grille,$,4.5,(917) 299-1550,40.7654688096,-73.9700398594
+moes-doughs-donut-shop-brooklyn,Moe's Doughs Donut Shop,$,4.5,(718) 349-1216,40.7243431,-73.9484718
+s-and-j-astoria,S & J,$,5.0,(718) 879-0080,40.7688679722,-73.9251025358
+russ-and-daughters-cafe-new-york-5,Russ & Daughters Cafe,$$,4.0,(212) 475-4881,40.7196253172,-73.989575893
+chive-blossom-nyc-brooklyn,Chive Blossom NYC,$$,5.0,(718) 576-3571,40.710796,-73.963901
+don-chingon-brooklyn,Don Chingon,$$,4.5,(718) 576-3521,40.6810431221,-73.975240326
+purbird-brooklyn,Purbird,$$,4.0,(718) 857-2473,40.6797733228,-73.9752304112
+lovemama-new-york,LoveMama,$$,4.0,(212) 254-5370,40.7303859,-73.9860613
+silver-rice-brooklyn,Silver Rice,$$,4.5,(718) 398-8100,40.6742123563,-73.9568891376
+the-little-owl-new-york,The Little Owl,$$$,4.0,(212) 741-4695,40.7323808291,-74.0053009987
+urban-vintage-brooklyn,Urban Vintage,$$,4.5,(718) 783-6045,40.6879410742,-73.9628667683
+sullivan-street-tea-and-spice-company-manhattan,Sullivan Street Tea & Spice Company,$$,4.5,(212) 387-8702,40.729236,-74.000386
+pepe-rosso-social-new-york-2,Pepe Rosso Social,$$,4.0,(212) 219-0019,40.7200621068,-73.9961392432
+excuse-my-french-new-york,Excuse My French,$$,4.5,(212) 780-9600,40.71844,-73.98981
+caffe-vita-lower-east-side-new-york,Caffe Vita Lower East Side,$$,4.5,(212) 260-8482,40.7196994,-73.9884539
+la-colombe-coffee-new-york,La Colombe Coffee,$$,4.0,(212) 343-1515,40.719941,-74.003781
+san-carlo-osteria-piemonte-new-york-city,San Carlo Osteria Piemonte,$$$,4.5,(212) 625-1212,40.725139,-74.002098
+b-and-h-dairy-new-york-2,B&H Dairy,$,4.0,(212) 505-8065,40.7284584,-73.9881668
+beyond-sushi-herald-square-new-york,Beyond Sushi Herald Square,$$,4.5,(212) 564-0869,40.75247,-73.98845
+kobrick-coffee-new-york,Kobrick Coffee,$$,4.5,(212) 255-5588,40.7403520674,-74.0056126022
+duane-park-new-york-3,Duane Park,$$$$,4.0,(212) 732-5555,40.7249172,-73.9925423
+misirizzi-new-york,MISIRIZZI,$$$,4.5,(212) 375-0100,40.7272,-73.9922799
+espresso-me-brooklyn-3,Espresso Me,$,4.5,,40.6908328,-73.9970734
+the-lobster-place-new-york-2,The Lobster Place,$$,4.0,(212) 255-5672,40.7427413905,-74.0060118058
+mermaid-oyster-bar-new-york-2,Mermaid Oyster Bar,$$,4.0,(212) 260-0100,40.728847,-74.001785
+hi-collar-new-york-2,Hi-Collar,$$,4.0,(212) 777-7018,40.7293077268,-73.9859368049
+st-mazie-brooklyn-2,St. Mazie,$$,4.0,(718) 384-4807,40.71263,-73.9558
+oiji-new-york,Oiji,$$$,4.5,(646) 767-9050,40.72727,-73.98585
+c-lo-cafe-brooklyn,C.Lo Cafe,$$,4.5,(347) 987-3402,40.713577,-73.941176
+fifty-new-york,Fifty,$$$,4.5,(212) 524-4104,40.7316062167,-74.0056323525
+wolfnights-new-york,Wolfnights,$,4.0,(646) 669-8070,40.7198896,-73.9885666
+bells-coffee-and-design-new-york,Bell's Coffee & Design,$$,4.5,,40.7228812857,-74.004627286
+golden-steamer-new-york,Golden Steamer,$,4.0,(212) 226-1886,40.718772,-73.996788
+loring-place-new-york-2,Loring Place,$$$,4.5,(212) 388-1831,40.73299,-73.99754
+xian-famous-foods-new-york-3,Xi'an Famous Foods,$,4.0,,40.72782,-73.98551
+naya-new-york-17,Naya,$,4.5,(212) 760-8888,40.7023139,-74.0114968
+korchma-taras-bulba-new-york,Korchma Taras Bulba,$$,4.0,(212) 510-7510,40.722949,-74.003101
+yopparai-new-york,Yopparai,$$$,4.5,(212) 777-7253,40.71914,-73.98574
+upstate-new-york-2,Upstate,$$,4.5,(646) 791-5400,40.7263139141,-73.9864901977
+zadies-oyster-room-new-york,Zadie's Oyster Room,$$,4.5,(646) 602-1300,40.7299,-73.98266
+city-of-saints-coffee-roasters-new-york,City of Saints Coffee Roasters,$$,4.5,(646) 590-1624,40.7311385,-73.9900766
+raouls-restaurant-new-york,Raoul's Restaurant,$$$,4.0,(212) 966-3518,40.726154,-74.002159
+mariella-brooklyn,Mariella,$$,4.5,(718) 499-2132,40.6662419,-73.985749
+samurai-papa-brooklyn-2,Samurai Papa,$$,4.5,(718) 599-7171,40.7028920729,-73.9435883984
+rocco-steakhouse-new-york,Rocco Steakhouse,$$$,4.5,(212) 696-9660,40.7438607,-73.9861214
+beyond-sushi-chelsea-market-new-york,Beyond Sushi - Chelsea Market,$$,4.5,(212) 929-2889,40.7424675259,-74.0066324868
+burrow-brooklyn,Burrow,$,4.5,,40.7027217,-73.9868878
+lavagna-restaurant-new-york,Lavagna Restaurant,$$$,4.0,(212) 979-1005,40.72406,-73.98226
+pouring-ribbons-new-york,Pouring Ribbons,$$$,4.0,(917) 656-6788,40.7290115356,-73.9780197144
+gilas-nosh-new-york,Gila's Nosh,$,4.5,(212) 213-3334,40.738616,-73.98184
+luzzos-new-york-4,Luzzo's,$$,4.0,(212) 473-7447,40.730551,-73.9834846
+the-nomad-restaurant-new-york,The NoMad Restaurant,$$$,4.0,(347) 472-5660,40.7449,-73.988482
+virginias-new-york,Virginia's,$$$,4.5,(212) 658-0182,40.72666,-73.9773
+bushwick-grind-brooklyn-2,Bushwick Grind,$,4.5,(929) 337-6007,40.701716,-73.944517
+elsa-brooklyn,Elsa,$$,4.5,(917) 882-7395,40.69027,-73.99535
+burgers-by-honest-chops-new-york-4,Burgers By Honest Chops,$$,4.0,(212) 677-2110,40.7296280241,-74.0010289103
+davids-brisket-house-and-deli-brooklyn,David's Brisket House and Deli,$$,4.5,(718) 789-1155,40.679434,-73.949515
+beer-street-brooklyn,Beer Street,$$,4.5,(347) 294-0495,40.7172241211,-73.9451065063
+hole-in-the-wall-new-york-2,Hole in the Wall,$$,4.5,(212) 602-9991,40.70837,-74.00563
+takahachi-bakery-new-york,Takahachi Bakery,$$,4.0,(212) 791-5550,40.71373,-74.00843
+take-a-break-and-ill-bake-cafe-and-creperie-brooklyn,Take A Break & I'll Bake Cafe & Creperie,$$,4.5,(718) 855-8110,40.6760769,-73.9986832
+penny-house-cafe-brooklyn,Penny House Cafe,$,4.5,(347) 240-7281,40.676044,-73.963713
+good-night-sonny-new-york,Good Night Sonny,$$,4.5,(646) 692-3254,40.72768,-73.98502
+num-pang-kitchen-new-york-6,Num Pang Kitchen,$,4.0,(646) 791-0439,40.73396,-73.99312
+sushi-zo-new-york,Sushi Zo,$$$$,4.5,(646) 405-4826,40.7297821045,-73.9992218018
+mazzat-brooklyn,Mazzat,$$,4.5,(718) 852-1652,40.684942,-74.003028
+cull-and-pistol-oyster-bar-new-york,Cull & Pistol Oyster Bar,$$,4.0,(646) 568-1223,40.7419486919,-74.0048140816
+bakers-pizza-new-york,Baker's Pizza,$,4.5,(212) 777-7477,40.7294399,-73.98125
+peter-luger-brooklyn-2,Peter Luger,$$$$,4.0,(718) 387-7400,40.709945,-73.962478
+fiaschetteria-pistoia-new-york,Fiaschetteria Pistoia,$$,4.5,(212) 777-3355,40.72666,-73.9773
+seven-grams-caffe-new-york-3,Seven Grams Caffe,$,4.5,(212) 727-1777,40.7456063122,-73.9942775378
+oatmeals-new-york-3,OatMeals,$,4.5,(646) 360-3570,40.730389,-74.000533
+pmf-pardon-my-french-new-york,PMF Pardon My French,$$,4.0,(212) 358-9683,40.72473,-73.98115
+brooklyn-bagel-and-coffee-company-new-york-2,Brooklyn Bagel & Coffee Company,$,4.0,(212) 924-2824,40.746183,-73.997642
+les-enfants-de-boheme-new-york,Les Enfants de Boheme,$$,4.5,(646) 476-4843,40.7136187,-73.9888503
+cafe-mogador-new-york,Cafe Mogador,$$,4.0,(212) 677-2226,40.7272587674,-73.9845085144
+tableside-italian-cook-shoppe-new-york,Tableside Italian Cook Shoppe,$$,4.5,(646) 852-6498,40.7266287,-73.9863384
+fat-cat-kitchen-new-york,Fat Cat Kitchen,$,5.0,(212) 235-1994,40.73314,-73.98607
+tabaré-brooklyn-2,Tabaré,$$,4.0,(347) 335-0187,40.713046,-73.958968
+craft-new-york,Craft,$$$$,4.0,(212) 780-0880,40.73818,-73.98866
+margherita-nyc-new-york,Margherita NYC,$$,4.5,(212) 226-8391,40.7189865112,-73.9969329834
+4th-avenue-pub-brooklyn,4th Avenue Pub,$$,4.5,(718) 643-2273,40.682325,-73.980126
+the-summit-bar-new-york,The Summit Bar,$$,4.0,(347) 465-7911,40.72503,-73.9784584
+about-coffee-new-york-2,About Coffee,$,4.5,(212) 219-1408,40.7245227745,-74.003919661
+zabka-eastern-european-coffee-lounge-brooklyn-2,Zabka Eastern European Coffee Lounge,$,4.5,(518) 528-7809,40.68404,-73.92956
+by-chloe-new-york-11,by CHLOE,$$,4.0,,40.729242,-74.000913
+wassail-new-york,Wassail,$$,4.0,(646) 918-6835,40.721023,-73.988479
+quinoa-kitchen-brooklyn,Quinoa Kitchen,$$,4.5,(718) 486-5150,40.71403,-73.96147
+palma-new-york,Palma,$$$,4.0,(212) 691-2223,40.73115,-74.00233
+the-jolly-goat-coffee-bar-new-york,The Jolly Goat Coffee Bar,$,4.5,(646) 509-8957,40.7633010644,-73.9941928335
+blue-bottle-coffee-brooklyn-7,Blue Bottle Coffee,$$,4.5,(510) 653-3394,40.68736,-73.9897699
+ahimsa-new-york,Ahimsa,$$,4.5,(212) 533-7290,40.72878,-73.99924
+aunt-jakes-new-york,Aunt Jake's,$$,4.0,(646) 858-0470,40.7191072929,-73.9975398002
+katzs-delicatessen-new-york,Katz's Delicatessen,$$,4.0,(212) 254-2246,40.72222,-73.98751
+gelso-and-grand-new-york,Gelso & Grand,$$,4.0,(212) 226-1600,40.7194089547,-73.9973777878
+rye-brooklyn,Rye,$$$,4.0,(718) 218-8047,40.71259,-73.95786
+lamarca-cheese-shop-new-york,Lamarca Cheese Shop,$,4.5,(212) 673-7920,40.73841,-73.9839499
+market-table-new-york,Market Table,$$$,4.0,(212) 255-2100,40.7297659256,-74.0037665278
+hancos-brooklyn,Hanco's,$,4.0,(718) 858-6818,40.6870318622,-73.9904292381
+la-cigogne-brooklyn,La Cigogne,$$,4.0,(718) 858-5641,40.68348,-73.99929
+da-claudio-new-york,Da Claudio,$$,4.0,(212) 285-2668,40.71087,-74.00753
+brooklyn-blend-brooklyn,Brooklyn Blend,$$,4.5,(718) 484-2247,40.6923440819,-73.945849217
+creperie-new-york,Creperie,$,4.0,(212) 979-5521,40.7203575,-73.9883391
+mysttik-masaala-new-york-13,Mysttik Masaala,$,4.5,(917) 306-3128,40.7588940107,-73.9723344813
+raclette-new-york,Raclette,$$,4.0,(917) 853-5377,40.7289298,-73.980601
+giuseppinas-brooklyn,Giuseppina's,$$,4.5,(718) 499-5052,40.6603430973,-73.9907741547
+java-joe-brooklyn,Java Joe,$$,4.5,(718) 369-6026,40.6673199,-73.98091
+spaghetti-incident-new-york-2,Spaghetti Incident,$$,4.0,(646) 896-1446,40.7223153441,-73.9899454319
+la-lanterna-di-vittorio-new-york,La Lanterna Di Vittorio,$$,4.0,(212) 529-5945,40.73069,-74.00015
+buddakan-new-york,Buddakan,$$$,4.0,(212) 989-6699,40.7422275387,-74.0047066478
+upright-coffee-brooklyn,Upright Coffee,$$,4.5,(718) 215-9910,40.7292285,-73.9537541
+porto-rico-importing-co-new-york-3,Porto Rico Importing Co,$,4.0,(212) 533-1982,40.7283122638,-73.9872996775
+mekelburgs-brooklyn,Mekelburg's,$$,4.5,(718) 399-2337,40.6875419617,-73.9623336792
+shanghai-asian-manor-new-york,Shanghai Asian Manor,$$,4.0,(212) 766-6311,40.71441,-73.99902
+macaron-parlour-new-york-3,Macaron Parlour,$$,4.0,(212) 387-9169,40.71551,-73.99022
+bogota-latin-bistro-brooklyn,Bogota Latin Bistro,$$,4.0,(718) 230-3805,40.678165,-73.978976
+sweetgreen-new-york-4,Sweetgreen,$$,4.0,(646) 964-5012,40.7210635428,-73.9972511652
+lamazou-new-york,Lamazou,$,4.5,(212) 532-2009,40.74125,-73.98162
+crema-bk-brooklyn,Crema BK,$$,4.5,(347) 457-5363,40.723121,-73.945777
+desnuda-new-york-2,Desnuda,$$$,4.0,(212) 254-3515,40.726255,-73.9843
+south-4th-bar-and-café-brooklyn-2,South 4th Bar & Café,$,4.5,(718) 218-7478,40.71232,-73.9644
+almayass-restaurant-nyc-new-york-3,Almayass Restaurant NYC,$$$,4.5,(212) 473-3100,40.7394642504,-73.9887133176
+luigis-pizza-brooklyn,Luigi's Pizza,$,4.5,(718) 499-3857,40.66163,-73.99334
+gruppo-new-york-3,Gruppo,$$,4.5,(212) 995-2100,40.7247687884,-73.9816638203
+cafe-habana-new-york-4,Cafe Habana,$$,4.0,(212) 625-2001,40.722998,-73.994171
+little-collins-new-york,Little Collins,$$,4.5,(212) 308-1969,40.75993,-73.969711
+cha-an-new-york,Cha-An,$$,4.0,(212) 228-8030,40.72947,-73.98813
+yakiniku-futago-new-york,Yakiniku Futago,$$$,4.0,(212) 620-0225,40.7388518709,-73.9941236399
+champs-diner-brooklyn,Champs Diner,$$,4.0,(718) 599-2743,40.7084397373,-73.940780852
+aahar-indian-cuisine-new-york,Aahar Indian Cuisine,$$,4.5,(646) 649-3374,40.71334,-74.0081
+clover-club-brooklyn,Clover Club,$$,4.0,(718) 855-7939,40.6846046448,-73.9921875
+gran-morsi-new-york,Gran Morsi,$$$,4.5,(212) 577-2725,40.714328,-74.007751
+plg-coffee-house-and-tavern-brooklyn,PLG Coffee House and Tavern,$,4.5,(347) 413-7944,40.6598596691,-73.953380119
+modern-love-brooklyn-brooklyn-2,Modern Love Brooklyn,$$,4.5,(929) 298-0626,40.70983,-73.95109
+minetta-tavern-new-york,Minetta Tavern,$$$,4.0,(212) 475-3850,40.7300047977,-74.0006073834
+kestè-new-york-4,Kestè,$$,4.0,(212) 243-1500,40.73154,-74.00293
+dar-525-brooklyn,Dar 525,$$,4.5,(347) 422-0401,40.711266,-73.950317
+ramen-ishida-new-york,Ramen Ishida,$$,4.5,(646) 590-3276,40.71959,-73.98834
+kestè-williamsburg-brooklyn-3,Kestè Williamsburg,$$,4.5,(917) 909-1183,40.7192686,-73.9530651
+chefs-club-new-york-2,Chefs Club,$$$,4.0,(212) 941-1100,40.7242753116,-73.9953147647
+rebel-coffee-new-york,Rebel Coffee,$,4.5,(917) 261-4299,40.73784,-74.00475
+reconnect-cafe-brooklyn-2,ReConnect Cafe,$,4.5,(347) 406-9780,40.694637,-73.945854
+nargis-bar-and-grill-brooklyn,Nargis Bar & Grill,$$,4.5,(718) 640-7000,40.67791,-73.97929
+il-mulino-new-york-downtown-new-york-2,Il Mulino New York - Downtown,$$$$,4.0,(212) 673-3783,40.729807,-73.999159
+tip-top-bar-and-grill-brooklyn,Tip Top Bar & Grill,$,4.5,(718) 857-9744,40.683803,-73.956474
+covina-new-york-3,Covina,$$$,4.5,(212) 204-0225,40.7423054,-73.9832149
+perk-kafe-new-york,Perk Kafe,$,4.5,(212) 686-7375,40.7477647359,-73.9770407671
+saluggis-new-york,Saluggi's,$$,4.0,(212) 226-7900,40.720104,-74.003578
+johnys-luncheonette-new-york,Johny's Luncheonette,$,4.0,(212) 243-6230,40.74445,-73.99307
+avena-new-york,Avena,$$$,4.5,(212) 752-5323,40.76099,-73.96863
+delice-and-sarrasin-new-york,Delice & Sarrasin,$$,4.5,(212) 243-7200,40.733764,-74.000648
+the-uncommons-new-york,The Uncommons,$,4.5,(646) 543-9215,40.729331,-73.998649
+blossom-new-york-3,Blossom,$$$,4.0,(212) 627-1144,40.745513,-74.002365
+bibble-and-sip-new-york-2,Bibble & Sip,$,4.5,(646) 649-5116,40.76282,-73.98518
+william-barnacle-tavern-new-york,William Barnacle Tavern,$$,4.5,(212) 388-0388,40.7276567817,-73.9855673164
+henrys-end-brooklyn-4,Henry's End,$$$,4.0,(718) 834-1776,40.6997,-73.99217
+chikalicious-dessert-bar-new-york-3,ChikaLicious Dessert Bar,$$,4.0,(212) 995-9511,40.729779,-73.986357
+make-sandwich-new-york,Make Sandwich,$$,4.5,(212) 398-2602,40.7333792746,-73.9898192883
+juniper-brooklyn-2,Juniper,$$,4.0,(718) 782-8777,40.718925,-73.959017
+saigon-shack-new-york,Saigon Shack,$,4.0,(212) 228-0588,40.72969,-74.000629
+5ive-spice-brooklyn-3,5ive Spice,$$,4.0,(718) 857-3483,40.6814048,-73.9771062
+zzs-clam-bar-new-york,ZZ's Clam Bar,$$$$,4.5,(212) 254-3000,40.727688,-74.000466
+le-paris-dakar-new-york,Le Paris Dakar,$$,4.5,(347) 955-4100,40.6809258032,-73.9497190423
+third-rail-coffee-new-york,Third Rail Coffee,$,4.0,,40.72994,-73.99959
+barboncino-pizza-and-bar-brooklyn-2,Barboncino Pizza & Bar,$$,4.5,(718) 483-8834,40.67209,-73.95731
+dainobu-new-york-3,Dainobu,$$,4.5,(212) 645-0237,40.736282,-73.9972
+pn-wood-fired-pizza-new-york,PN Wood Fired Pizza,$$,4.5,(646) 964-4834,40.74475,-73.98772
+ayios-greek-rotisserie-new-york,Ayios Greek Rotisserie,$$,4.0,(212) 505-3601,40.72929,-73.98965
+risotteria-melotti-new-york-6,Risotteria Melotti,$$,4.5,(646) 755-8939,40.7266733639,-73.9880919456
+forlinis-restaurant-new-york,Forlini's Restaurant,$$,4.5,(212) 349-6779,40.71695,-73.99957
+gersi-brooklyn,Gersi,$$,4.5,(347) 889-5077,40.683438,-73.995711
+the-nomad-bar-new-york-2,The NoMad Bar,$$$,4.5,(212) 796-1500,40.744936541,-73.9885197632
+buvette-new-york,Buvette,$$,4.0,(212) 255-3590,40.732852,-74.004213
+trademark-taste-and-grind-new-york,Trademark Taste & Grind,$$,4.5,(646) 858-2320,40.7502555847,-73.985458374
+antons-dumplings-new-york,Anton's Dumplings,$,4.5,(212) 634-7664,40.7316627,-74.0009849
+the-meatball-shop-new-york,The Meatball Shop,$$,4.0,(212) 982-8895,40.7214961,-73.9887357
+luckybird-bakery-brooklyn,Luckybird Bakery,$$,4.5,,40.7076263428,-73.9427032471
+newtown-brooklyn-2,Newtown,$,4.5,(347) 984-6215,40.7091391,-73.9372268
+lunitas-brooklyn,Lunitas,$,4.5,(347) 987-3799,40.68232,-73.9603
+creperie-nyc-new-york-2,Creperie NYC,$,4.0,(212) 253-6705,40.72956,-74.00054
+pickler-and-co-new-york,Pickler & Co,$,4.5,(646) 869-9026,40.75207901,-73.9721755981
+gato-new-york,Gato,$$$,4.0,(212) 334-6400,40.7255312,-73.9951947
+masha-and-the-bear-brooklyn,Masha and The Bear,$$,4.5,(718) 384-5000,40.711978,-73.942403
+decoy-new-york,Decoy,$$$,4.0,(212) 691-9700,40.734196,-74.006519
+la-panineria-new-york,La Panineria,$$,4.0,(917) 388-3257,40.7324876186,-73.9967531074
+patacon-pisao-new-york-7,Patacon Pisao,$,4.0,(646) 678-5913,40.720379,-73.987588
+oscars-place-new-york-2,Oscar's Place,$$,4.5,(212) 741-6479,40.7318649,-74.0064011
+degustation-new-york,Degustation,$$$,4.0,(212) 979-1012,40.72699,-73.98922
+brunetti-pizza-new-york,Brunetti Pizza,$$,4.0,(212) 255-5699,40.73829,-74.0054
+latin-beet-kitchen-new-york,Latin Beet Kitchen,$$,4.5,(917) 993-7323,40.7433815002,-73.9912948608
+gyu-kaku-japanese-bbq-new-york,Gyu-Kaku Japanese BBQ,$$$,4.0,(212) 475-2989,40.72834,-73.99159
+jadis-new-york,Jadis,$$,4.0,(212) 254-1675,40.7210234742,-73.9910054106
+the-halal-guys-new-york-2,The Halal Guys,$,4.5,,40.7617559583,-73.9792299271
+eclair-bakery-new-york,Eclair Bakery,$$,4.5,(212) 759-2253,40.756722,-73.966611
+mahal-kita-brooklyn,Mahal Kita,$$,4.5,(718) 599-1516,40.7106773,-73.9582807
+absolute-coffee-brooklyn,Absolute Coffee,$$,4.5,(718) 522-0969,40.68818,-73.98762
+spot-dessert-bar-new-york-2,Spot Dessert Bar,$$,4.0,(212) 677-5670,40.72939,-73.988923
+vintry-wine-and-whiskey-new-york,Vintry Wine and Whiskey,$$$,4.0,(212) 480-9800,40.70445,-74.01027
+taqueria-st-marks-place-new-york,Taqueria St. Marks Place,$$,4.0,(646) 964-5614,40.727858778,-73.9856138086
+blind-tiger-ale-house-new-york,Blind Tiger Ale House,$$,4.0,(212) 462-4682,40.731926,-74.003223
+black-gold-records-brooklyn,Black Gold Records,$$,4.5,(347) 227-8227,40.677265,-73.998102
+bagel-pub-brooklyn,Bagel Pub,$,4.5,(718) 499-4402,40.6694497251,-73.9868366718
+sushi-by-bou-new-york-3,Sushi by Bou,$$$,5.0,(917) 348-5737,40.75851,-73.98322
+12-corners-new-york-4,12 Corners,$,4.5,(212) 625-8888,40.718048,-73.997222
+barnyard-cheese-new-york,Barnyard Cheese,$$,4.5,(212) 674-2276,40.72727,-73.97987
+hometown-bar-b-que-brooklyn,Hometown Bar-B-Que,$$,4.0,(347) 294-4644,40.674905,-74.016127
+juke-bar-new-york,Juke Bar,$$,4.5,(212) 228-7464,40.7311912626,-73.9857168496
+kaorumc-new-york-4,KaoruMC,$$,4.5,(212) 867-0874,40.75202,-73.96977
+the-winslow-new-york-2,The Winslow,$$,4.0,(212) 777-7717,40.7327766418,-73.9852142334
+del-posto-new-york,Del Posto,$$$$,4.0,(212) 497-8090,40.7434155953,-74.0075330133
+luannes-wild-ginger-all-asian-vegan-new-york,LuAnne's Wild Ginger All-Asian Vegan,$$,4.0,(212) 966-1883,40.7204631,-73.9964956
+tartinery-hudson-eats-new-york-3,Tartinery Hudson Eats,$$,4.0,(646) 755-8484,40.7124807122,-74.015854919
+aurora-soho-new-york,Aurora Soho,$$$,4.0,(212) 334-9020,40.723543,-74.003199
+dun-well-doughnuts-brooklyn,Dun-Well Doughnuts,$,4.0,(347) 294-0871,40.707743,-73.940202
+darna-falafel-brooklyn,Darna Falafel,$,4.0,(347) 799-1673,40.687047459,-73.9938177877
+bozu-brooklyn,Bozu,$$,4.0,(718) 384-7770,40.712797,-73.957555
+alis-restaurant-brooklyn-3,Ali's Restaurant,$$,4.5,(718) 366-2002,40.7018852234,-73.9242553711
+vics-new-york,Vic's,$$,4.0,(212) 253-5700,40.72683,-73.99328
+peacefood-cafe-downtown-new-york,Peacefood Cafe Downtown,$$,4.0,(212) 979-2288,40.7332670925,-73.9929751334
+mee-cafe-new-york,Mee Cafe,$,4.5,(646) 996-0029,40.713053,-73.99021
+wallflower-new-york,Wallflower,$$$,4.0,(646) 682-9842,40.7377405,-74.0021002
+suffolk-arms-new-york,Suffolk Arms,$$,4.5,(212) 475-0400,40.72152,-73.98462
+flex-mussels-new-york-2,Flex Mussels,$$$,4.0,(212) 229-0222,40.737437,-73.999661
+ootoya-chelsea-new-york,Ootoya Chelsea,$$,4.0,(212) 255-0018,40.738767,-73.992778
+cantine-brooklyn,Cantine,$$,4.5,(646) 472-7941,40.68401,-74.00246
+blue-bottle-coffee-brooklyn-2,Blue Bottle Coffee,$$,4.0,(510) 653-3394,40.717416,-73.960623
+the-capital-grille-new-york-3,The Capital Grille,$$$,4.0,(212) 374-1811,40.7078813983,-74.0102026698
+sakamai-new-york,SakaMai,$$$,4.0,(646) 590-0684,40.7209536657,-73.9881407239
+club-a-steakhouse-new-york,Club A Steakhouse,$$$,4.5,(212) 688-4190,40.76006,-73.96557
+rooftop-93-new-york-5,Rooftop 93,$$,4.0,(212) 966-9033,40.7170219,-73.9953842
+del-friscos-double-eagle-steak-house-new-york-2,Del Frisco's Double Eagle Steak House,$$$$,4.5,(212) 575-5129,40.7594099,-73.98222
+joes-pizza-new-york-4,Joe's Pizza,$,4.0,(212) 366-1182,40.7305599,-74.0021299
+cagen-japan-restaurant-new-york-2,Cagen Japan Restaurant,$$$$,4.0,(212) 358-8800,40.72779,-73.98417
+june-brooklyn-3,June,$$,4.0,(917) 909-0434,40.6861,-73.99394
+faiccos-italian-specialties-new-york,Faicco's Italian Specialties,$$,4.5,(212) 243-1974,40.7311,-74.00316
+samis-kabab-house-astoria,Sami's Kabab House,$$,5.0,(917) 832-7165,40.7587874,-73.9326435
+balthazar-restaurant-new-york,Balthazar Restaurant,$$$,4.0,(212) 965-1414,40.7227303946,-73.9983307763
+sushi-yasuda-new-york,Sushi Yasuda,$$$$,4.0,(212) 972-1001,40.75113,-73.97347
+the-clam-new-york,The Clam,$$$,4.0,(212) 242-7420,40.7303076612,-74.0068030358
+blue-ribbon-sushi-new-york,Blue Ribbon Sushi,$$$,4.0,(212) 343-0404,40.72606,-74.0024
+hot-mini-cakes-new-york,Hot Mini Cakes,$,4.5,,40.718388081,-73.994656242
+home-made-brooklyn,Home/Made,$$,4.0,(347) 223-4135,40.67864549,-74.0111904454
+clinton-street-baking-company-new-york-5,Clinton Street Baking Company,$$,4.0,(646) 602-6263,40.721128,-73.983933
+uncle-gussys-new-york,Uncle Gussy's,$,4.5,(929) 600-1111,40.7576813279,-73.9732953738
+cafe-himalaya-new-york-2,Cafe Himalaya,$,4.0,(212) 358-0160,40.7232289034,-73.9879441221
+dirt-candy-new-york-2,Dirt Candy,$$$,4.0,(212) 228-7732,40.7179075,-73.9907183
+cherry-point-brooklyn,Cherry Point,$$,4.5,(718) 389-3828,40.7244954175,-73.9511575077
+momofuku-ko-new-york-3,Momofuku Ko,$$$$,4.5,(212) 500-0831,40.724776,-73.991682
+ni-japanese-delicacies-new-york,Ni Japanese Delicacies,$,4.5,(646) 675-4324,40.7193413,-73.9876003
+dil-e-punjab-deli-new-york,Dil-e Punjab Deli,$,4.5,(212) 647-9428,40.74482,-74.00206
+boubouki-new-york,Boubouki,$,4.5,(718) 344-4202,40.7189488066,-73.9876520634
+gotan-new-york,Gotan,$$,4.0,(212) 431-5200,40.719255,-74.006607
+petite-crevette-brooklyn,Petite Crevette,$$,4.0,(718) 855-2632,40.68396,-74.0018
+skyice-sweet-and-savory-brooklyn-2,SkyIce Sweet & Savory,$$,4.0,(718) 230-0910,40.6806411743,-73.9772872925
+le-fond-brooklyn,Le Fond,$$,4.5,(718) 389-6859,40.7258186,-73.9511185
+omars-mediterranean-east-midtown-new-york,Omar's Mediterranean East Midtown,$$,4.5,(212) 207-8302,40.75904,-73.96927
+dizengoff-nyc-new-york,Dizengoff NYC,$$,4.0,(646) 833-7097,40.742063,-74.005521
+the-ship-new-york,The Ship,$$,4.0,(212) 219-8496,40.7198443,-73.99947
+da-marcella-new-york,Da Marcella,$$,4.5,(646) 559-9192,40.72806,-74.00172
+venieros-new-york-2,Veniero's,$$,4.0,(212) 674-7070,40.72941,-73.98454
+little-branch-new-york,Little Branch,$$$,4.0,(212) 929-4360,40.73013,-74.005058
+double-zero-new-york,Double Zero,$$,4.5,(212) 777-1608,40.7261288,-73.9896645
+lelabar-new-york-2,Lelabar,$$,4.0,(212) 206-0594,40.730384,-74.006554
+carroll-place-new-york,Carroll Place,$$,4.0,(212) 260-1700,40.7286329,-73.9998011
+lupa-new-york,Lupa,$$$,4.0,(212) 982-5089,40.72765,-74.00021
+caprices-by-sophie-brooklyn,Caprices By Sophie,$,4.5,(347) 689-4532,40.717594,-73.959267
+el-rey-coffee-and-luncheonette-new-york,El Rey Coffee And Luncheonette,$$,4.0,(212) 260-3950,40.7213779,-73.9879345
+patrizias-pizza-and-pasta-new-york,Patrizia's Pizza and Pasta,$$,4.0,(212) 597-9999,40.7398415,-73.9792862
+made-by-pauline-new-york-2,Made by Pauline,$$,5.0,(212) 494-1003,40.7507865527,-73.9895356515
+avlee-greek-kitchen-brooklyn-3,Avlee Greek Kitchen,$$,4.0,(718) 855-5125,40.6798782,-73.9948699
+giano-restaurant-new-york,Giano Restaurant,$$,4.0,(212) 673-7200,40.7262256597,-73.9840574049
+chikarashi-new-york,Chikarashi,$$,4.0,(646) 649-5965,40.71787,-73.99948
+uchu-new-york,Uchu,$$$$,5.0,(212) 203-7634,40.72172,-73.99026
+sushi-katsuei-brooklyn,Sushi Katsuei,$$$,4.0,(718) 788-5338,40.6707147,-73.9785903
+antler-beer-and-wine-dispensary-new-york,Antler Beer And Wine Dispensary,$$,4.5,(212) 432-5000,40.7197126679,-73.9902404124
+soup-spot-new-york,Soup Spot,$,4.5,(212) 643-8623,40.7493139,-73.9929231
+sakagura-new-york,Sakagura,$$$,4.0,(212) 953-7253,40.7516467025,-73.9729489318
+mariebelle-new-york-3,MarieBelle,$$$,4.0,(212) 925-6999,40.7232107709,-74.0024506279
+stuyvesant-organic-new-york,Stuyvesant Organic,$,4.5,(212) 475-3280,40.729442,-73.978805
+kimbap-lab-brooklyn,Kimbap Lab,$$,5.0,(718) 734-2321,40.716079697,-73.9596880227
+mezetto-new-york,Mezetto,$$,4.0,(212) 933-4587,40.7228863781,-73.9889362577
+ciccio-new-york-2,Ciccio,$$,4.0,(646) 476-9498,40.726306,-74.003427
+ccs-cafe-new-york-2,CC's Cafe,$$,4.5,(212) 571-1060,40.71166,-73.99452
+baal-cafe-and-falafel-new-york,Ba'al Cafe & Falafel,$,4.0,(646) 368-9957,40.7244,-74.00377
+perpetuum-cafe-new-york,Perpetuum Cafe,$,4.5,(646) 869-6068,40.744445,-73.993072
+la-colombe-coffee-new-york-3,La Colombe Coffee,$$,4.5,(212) 220-0415,40.7056896628,-74.0083486273
+poketeria-new-york,Poketeria,$$,4.5,(212) 689-8985,40.7496522367,-73.9833162725
+baby-grand-new-york,Baby Grand,$$,4.0,(212) 219-8110,40.7197504958,-73.9991816301
+black-brick-brooklyn,Black Brick,$,4.0,(718) 384-0075,40.7142079238,-73.9617848396
+westville-east-new-york-3,Westville - East,$$,4.0,(212) 677-2033,40.72847,-73.98213
+doughnut-plant-new-york-2,Doughnut Plant,$$,4.0,(212) 505-3700,40.7444886,-73.9969095
+fragole-ristorante-brooklyn,Fragole Ristorante,$$,4.0,(718) 522-7133,40.6808662415,-73.9968795776
+nerai-new-york,Nerai,$$$,4.5,(212) 759-5554,40.76029,-73.97301
+daily-provisions-new-york,Daily Provisions,$$,4.5,(212) 488-1505,40.7375943661,-73.9876976609
+shake-shack-new-york-2,Shake Shack,$$,4.0,(212) 889-6600,40.7414000197,-73.9881501904
+virgola-new-york-8,Virgola,$$,4.5,,40.7349737,-74.000161
+fresh-kills-bar-brooklyn,Fresh Kills Bar,$$,4.5,(718) 599-7888,40.7147999,-73.96151
+oasis-brooklyn-3,Oasis,$,4.0,(718) 218-7607,40.7177548451,-73.9573632607
+luckydog-brooklyn,Luckydog,$,4.0,(347) 294-4971,40.71348,-73.96166
+cocotte-new-york,Cocotte,$$$,4.0,(212) 965-9100,40.7256965637,-74.0016860962
+soho-cigar-bar-new-york-2,SoHo Cigar Bar,$$,4.0,(212) 941-1781,40.7236164017,-74.0045062232
+balade-your-way-new-york-2,Balade - Your Way,$$,4.5,(212) 695-6969,40.7524299622,-73.9887237549
+bowery-meat-company-new-york,Bowery Meat Company,$$$,4.0,(212) 460-5255,40.7246226078,-73.9917780944
+piccola-strada-new-york,Piccola Strada,$$,4.0,,40.726635461,-73.9904360318
+zundo-ya-new-york,Zundo-Ya,$$,4.0,(917) 639-3549,40.7308616638,-73.989944458
+proletariat-new-york,Proletariat,$$,4.0,(212) 777-6707,40.7272506369,-73.9845192432
+il-corallo-trattoria-new-york,Il Corallo Trattoria,$$,4.0,(212) 941-7119,40.7262073,-74.0018919
+lot-2-brooklyn-2,Lot 2,$$,4.5,(718) 499-5623,40.6605911255,-73.9903106689
+ninth-street-espresso-new-york-6,Ninth Street Espresso,$,4.0,(212) 228-2930,40.7423824065,-74.0060007321
+dinnertable-new-york,Dinnertable,$$$,4.5,,40.72945,-73.9807
+brooklyn-ball-factory-brooklyn,Brooklyn Ball Factory,$$,4.5,(718) 387-5296,40.7072338028,-73.9458661779
+malatesta-trattoria-new-york,Malatesta Trattoria,$$,4.0,(212) 741-1207,40.73285,-74.00847
+salinas-new-york,Salinas,$$$,4.0,(212) 776-1990,40.7436999,-74.00314
+maison-premiere-brooklyn,Maison Premiere,$$$,4.0,(347) 335-0446,40.7142031,-73.9614855
+red-bamboo-new-york,Red Bamboo,$$,4.0,(212) 260-1212,40.7313183708,-74.0003546456
+the-gumbo-bros-brooklyn,The Gumbo Bros,$$,4.5,(917) 909-1471,40.6892547607,-73.9917984009
+cafe-petisco-new-york,Cafe Petisco,$$,4.0,(212) 387-0366,40.71396,-73.98882
+chez-moi-brooklyn,Chez Moi,$$,4.0,(347) 227-8337,40.6907305802,-73.9955124433
+chick-p-brooklyn,Chick P,$,4.0,(718) 783-1525,40.6806329638,-73.9743000269
+oregano-brooklyn,Oregano,$$,4.0,(718) 599-5988,40.7190165,-73.9586248
+dutch-freds-new-york-2,Dutch Freds,$$,4.5,(646) 918-6923,40.76082,-73.98785
+izakaya-mew-new-york-3,Izakaya MEW,$$,4.0,(646) 368-9384,40.7501853096,-73.9863203466
+la-bagel-delight-brooklyn-4,La Bagel Delight,$,4.0,(718) 768-6107,40.6685488139,-73.9805128401
+ess-a-bagel-new-york-5,Ess-A-Bagel,$,4.0,(212) 260-2252,40.7342019612,-73.980185477
+the-family-store-brooklyn-3,The Family Store,$$,4.5,(718) 748-0207,40.63541,-74.02589
+adels-famous-halal-food-new-york,Adel's Famous Halal Food,$,4.5,,40.76394,-73.99193
+diamantes-brooklyn-cigar-lounge-brooklyn,Diamante's Brooklyn Cigar Lounge,$$,4.5,(646) 462-3876,40.6863524,-73.9734601
+luannes-wild-ginger-all-asian-vegan-brooklyn,LuAnne's Wild Ginger All-Asian Vegan,$$,4.0,(718) 858-3880,40.687936,-73.989925
+doughnut-plant-brooklyn,Doughnut Plant,$$,4.0,(212) 505-3700,40.680653,-73.9747427
+puerto-viejo-brooklyn,Puerto Viejo,$$,4.0,(718) 398-3758,40.6788712,-73.9622498
+v-nam-cafe-new-york,V-Nam Cafe,$,4.0,(212) 780-6020,40.7233696141,-73.9881201812
+win-son-brooklyn-4,Win Son,$$,4.5,(347) 457-6010,40.70747,-73.94339
+davidstea-new-york-6,DAVIDsTEA,$$,4.5,(212) 229-0002,40.7420828727,-73.9932698051
+joe-jr-restaurant-new-york,Joe Jr. Restaurant,$,4.0,(212) 473-5150,40.734634,-73.985877
+maharlika-new-york,Maharlika,$$,4.0,(646) 392-7880,40.72695,-73.98611
+mint-masala-new-york,Mint Masala,$$,4.0,(212) 777-2888,40.72953,-74.00115
+slimak-brooklyn-3,Slimak,$$,4.5,(347) 689-3332,40.65143,-74.00787
+snowdays-cafe-brooklyn,Snowdays Cafe,$$,4.5,(347) 294-0267,40.6811099,-73.97563
+yaya-tea-garden-new-york-3,Yaya Tea Garden,$,4.0,(212) 226-8803,40.7162999,-73.99496
+bellocq-tea-atelier-brooklyn-2,Bellocq Tea Atelier,$$,4.5,(347) 463-9231,40.7301765,-73.9591417
+fig-19-new-york,Fig 19,$$,4.0,,40.7195552152,-73.9932382804
+keens-steakhouse-new-york,Keens Steakhouse,$$$$,4.0,(212) 947-3636,40.75071,-73.98652
+shake-shack-brooklyn-4,Shake Shack,$$,4.0,(347) 442-7721,40.68269,-73.97668
+le-french-diner-new-york,Le French Diner,$$,4.5,(212) 777-1577,40.7218274586,-73.9879689992
+veggies-natural-juice-bar-brooklyn,Veggies Natural Juice Bar,$,4.5,(347) 627-3247,40.671975,-73.9571799
+99-favor-taste-new-york-12,99 Favor Taste,$$,4.0,(646) 682-9162,40.717745,-73.992537
+westville-west-new-york,Westville - West,$$,4.0,(212) 741-7971,40.7340046,-74.0041863
+ninth-street-espresso-new-york-3,Ninth Street Espresso,$,4.0,(212) 358-9225,40.7251,-73.9778
+21-shanghai-house-new-york-4,21 Shanghai House,$$,4.0,(212) 226-8998,40.7140138245,-73.9964454933
+white-maize-brooklyn,White Maize,$,4.5,(347) 946-2493,40.6824378967,-73.9931335449
+the-bounty-brooklyn,The Bounty,$$,4.0,(347) 689-3325,40.730385,-73.954811
+shuko-new-york-2,Shuko,$$$$,4.0,(212) 228-6088,40.7334269431,-73.9914635674
+freddys-bar-brooklyn-2,Freddy's Bar,$,4.5,(718) 768-0131,40.6631969,-73.991061
+emporio-new-york,Emporio,$$,4.0,(212) 966-1234,40.7226371,-73.9951331
+morimoto-new-york,Morimoto,$$$$,4.0,(212) 989-8883,40.74312,-74.007185
+brandy-library-new-york,Brandy Library,$$$,4.0,(212) 226-5545,40.720073,-74.007227
+johns-of-bleecker-street-new-york-2,John's of Bleecker Street,$$,4.0,(212) 243-1680,40.73158,-74.00332
+beauty-and-essex-new-york,Beauty & Essex,$$$,4.0,(212) 614-0146,40.72037,-73.98677
+la-maison-du-macaron-new-york,La Maison du Macaron,$$,4.0,(212) 243-2757,40.74318,-73.99419
+rabbithole-restaurant-brooklyn,Rabbithole Restaurant,$$,4.0,(718) 782-0910,40.71229328,-73.9628687873
+no-ho-juice-bar-and-deli-new-york,No Ho Juice Bar & Deli,$,4.5,(212) 777-5070,40.7266505,-73.9968021
+covenhoven-brooklyn,Covenhoven,$$,4.5,(718) 483-9950,40.675246,-73.960244
+happy-bones-nyc-new-york,Happy Bones NYC,$$,4.0,(212) 673-3754,40.7206441462,-73.997066617
+sel-rrose-new-york,Sel Rrose,$$,4.0,(212) 226-2510,40.7200099,-73.9937874
+aita-brooklyn,Aita,$$,4.0,(718) 576-3584,40.686409,-73.9666214
+laughing-man-coffee-and-tea-new-york,Laughing Man Coffee & Tea,$$,4.5,(212) 227-3240,40.71453,-74.01691
+the-modern-new-york-3,The Modern,$$$$,4.0,(212) 333-1220,40.7610060885,-73.9767725609
+le-coucou-new-york,Le Coucou,$$$$,4.0,(212) 271-4252,40.71915,-74.00024
+terri-new-york-4,Terri,$$,4.0,(212) 742-7901,40.7066242683,-74.0068224907
+excellent-dumpling-house-new-york-3,Excellent Dumpling House,$$,4.0,(212) 989-8885,40.7440494396,-73.9950281943
+my-cuban-spot-brooklyn,My Cuban Spot,$$,4.5,(718) 855-1941,40.6769662463,-73.9861777067
+8th-street-winecellar-new-york-2,8th Street Winecellar,$$,4.0,(212) 260-9463,40.7327981,-73.9978351
+pokito-brooklyn-2,Pokito,$$,4.5,(917) 909-1542,40.71162,-73.96184
+little-miss-muffin-n-her-stuffin-brooklyn-2,Little Miss Muffin N Her Stuffin,$,4.5,(718) 857-4963,40.6750616,-73.9633855
+bulbap-grill-brooklyn,Bulbap Grill,$$,4.5,(718) 383-3663,40.7243,-73.9509099
+hanks-juicy-beef-new-york-4,Hank's Juicy Beef,$$,4.5,(646) 828-8996,40.7143487,-74.0072147
+tuck-shop-new-york,Tuck Shop,$,4.0,(212) 979-5200,40.723716,-73.988807
+the-pokéspot-new-york-3,The PokéSpot,$$,4.0,(212) 933-0971,40.7330970764,-73.9902801514
+jongro-bbq-new-york-3,Jongro BBQ,$$,4.0,(212) 473-2233,40.7475339,-73.9869275
+quality-eats-new-york,Quality Eats,$$$,4.0,(212) 337-9988,40.73446,-74.00016
+two-little-red-hens-new-york-4,Two Little Red Hens,$$,4.5,(212) 452-0476,40.777528,-73.9517869
+kung-fu-tea-brooklyn-3,Kung Fu Tea,$,4.0,(347) 294-0232,40.6894028199,-73.9860078509
+gran-sasso-brooklyn,Gran Sasso,$$,4.5,(718) 388-6200,40.721931,-73.959617
+cotenna-new-york,Cotenna,$$,4.0,(646) 861-0175,40.72887664,-74.0034306012
+union-square-cafe-new-york-3,Union Square Cafe,$$$,4.0,(212) 243-4020,40.7375381,-73.9876539
+bohaus-brooklyn-2,Bohaus,$$,4.5,(347) 256-4864,40.68296,-73.93817
+lucid-café-new-york-4,Lucid Café,$,4.5,(212) 867-3490,40.74874,-73.97785
+corkbuzz-wine-studio-new-york,Corkbuzz Wine Studio,$$$,4.0,(646) 873-6071,40.73501,-73.99314
+bengal-tiger-indian-food-new-york,Bengal Tiger Indian Food,$$,4.5,(212) 265-2703,40.763167,-73.977131
+caracas-arepa-bar-brooklyn,Caracas Arepa Bar,$$,4.0,(718) 218-6050,40.713214,-73.957397
+bkw-by-brooklyn-winery-brooklyn,BKW By Brooklyn Winery,$$$,4.5,(718) 399-1700,40.6730575562,-73.9568405151
+the-up-and-up-new-york-2,The Up & Up,$$,4.0,(212) 260-3000,40.7295104447,-74.0006693439
+benito-one-new-york,Benito One,$$,4.0,(212) 226-9171,40.7199876084,-73.9969271421
+simon-sips-new-york-4,Simon Sips,$$,4.5,(212) 354-2100,40.7575595,-73.9821615
+piccoli-trattoria-brooklyn,Piccoli Trattoria,$$,4.0,(718) 788-0066,40.6650986896,-73.9864727963
+champion-pizza-new-york-6,Champion Pizza,$,4.5,(212) 226-3777,40.7215270996,-73.9970855713
+a-little-taste-new-york,A Little Taste,$,4.5,(212) 431-1000,40.746735,-73.992618
+sweet-chick-brooklyn,Sweet Chick,$$,4.0,(347) 725-4793,40.718423,-73.9574279
+rucola-brooklyn,Rucola,$$,4.0,(718) 576-3209,40.68554,-73.98592
+cafe-grumpy-new-york-6,Cafe Grumpy,$,4.0,(212) 777-7515,40.71512,-73.99015
+harrys-cafe-and-steak-new-york-2,Harry's Cafe & Steak,$$$,4.0,(212) 785-9200,40.704513,-74.009834
+bagel-world-brooklyn-3,Bagel World,$,4.5,(718) 499-1143,40.67205,-73.98373
+sushi-dojo-nyc-new-york,Sushi Dojo NYC,$$$$,4.0,(646) 692-9398,40.7266273499,-73.9856719971
+the-mermaid-inn-new-york,The Mermaid Inn,$$,4.0,(212) 674-5870,40.7269999,-73.98844
+kam-boat-bakery-and-cafe-new-york,Kam Boat Bakery & Cafe,$,4.5,(212) 274-1822,40.7178308,-73.995106
+buddha-vegetarian-kosher-cuisine-new-york,Buddha Vegetarian Kosher Cuisine,$$,4.0,(212) 233-2921,40.7164001,-73.999321
+sushi-on-jones-new-york,Sushi on Jones,$$$,4.0,(917) 270-1815,40.72664,-73.99202
+casa-adela-new-york,Casa Adela,$$,4.0,(212) 473-1882,40.72264,-73.97973
+streets-brooklyn-2,Streets,$$,4.0,(718) 384-2899,40.7106797978,-73.9663265208
+spice-and-grill-brooklyn,Spice & Grill,$$,4.5,(718) 875-2525,40.6933894,-73.9679912
+joseph-leonard-new-york,Joseph Leonard,$$,4.0,(646) 429-8383,40.7336021671,-74.0016754128
+osteria-morini-new-york,Osteria Morini,$$$,4.0,(212) 965-8777,40.7219179851,-73.9976472073
+the-whiskey-ward-new-york,The Whiskey Ward,$$,4.0,(212) 477-2998,40.71966,-73.98791
+krupa-grocery-brooklyn,Krupa Grocery,$$,4.5,(718) 709-7098,40.6598242,-73.980508
+brindle-room-new-york,Brindle Room,$$,4.0,(212) 529-9702,40.72829,-73.98271
+khe-yo-new-york,Khe-Yo,$$$,4.0,(212) 587-1089,40.716906,-74.008587
+brookvin-brooklyn,Brookvin,$$,4.0,(718) 768-9463,40.6652526855,-73.9825668335
+el-jeffe-brooklyn,El Jeffe,$$,4.5,(347) 365-8919,40.6801601,-73.9419752
+my-pie-new-york,My Pie,$,4.5,(212) 317-1850,40.7607,-73.969529
+bar-uni-brooklyn,Bar Uni,$$,4.5,(646) 833-8564,40.72491,-73.95113
+vanessas-dumpling-house-new-york-2,Vanessa's Dumpling House,$,4.0,(212) 625-8008,40.71839,-73.9917399
+19-cafe-new-york,19 Cafe,$,4.5,(718) 387-8777,40.7052167,-73.9444036
+very-fresh-noodles-new-york,Very Fresh Noodles,$$,4.0,,40.7423387008,-74.0061374946
+ramen-lab-new-york-2,Ramen Lab,$$,4.0,(646) 613-7522,40.7209918,-73.9963582
+little-king-brooklyn,Little King,$$,4.5,(917) 947-9965,40.7146009312,-73.94402911
+jean-georges-new-york-2,Jean-Georges,$$$$,4.5,(212) 299-3900,40.7691122743,-73.9814290718
+sushi-on-jones-new-york,Sushi on Jones,$$$,4.0,(917) 270-1815,40.72664,-73.99202
+white-oak-tavern-new-york-2,White Oak Tavern,$$,4.0,(212) 260-2604,40.7303379323,-73.9946855664
+kafana-new-york,Kafana,$$,4.0,(212) 353-8000,40.72432,-73.97851
+emily-brooklyn,Emily,$$,4.0,(347) 844-9588,40.6835192335,-73.9664132321
+wafels-and-dinges-new-york-4,Wafels & Dinges,$,4.5,,40.77389,-73.9821
+lali-restaurant-new-york,Lali Restaurant,$,4.5,(212) 664-1507,40.76128,-73.993919
+ny-pizza-suprema-new-york,NY Pizza Suprema,$,4.0,(212) 594-8939,40.7502059937,-73.9953231812
+employees-only-new-york,Employees Only,$$$,4.0,(212) 242-3021,40.73343,-74.00607
+babbo-new-york,Babbo,$$$$,4.0,(212) 777-0303,40.732283,-73.999284
+the-grey-dog-new-york-6,The Grey Dog,$$,4.0,(212) 966-1060,40.7299986601,-74.0038951002
+il-tinello-ristorante-italiano-new-york,Il Tinello Ristorante Italiano,$$$$,4.5,(212) 245-4388,40.76256,-73.97566
+321-ice-cream-shop-brooklyn,-321° Ice Cream Shop,$,4.0,(929) 228-9008,40.7129,-73.95779
+krolewskie-jadlo-brooklyn,Krolewskie Jadlo,$$,4.0,(718) 383-8993,40.72532,-73.95153
+upright-brew-house-new-york,Upright Brew House,$$,4.0,(212) 810-9944,40.7348858444,-74.006205227
+omakase-room-by-tatsu-new-york,Omakase Room by Tatsu,$$$$,4.5,(212) 367-2067,40.73382,-74.00042
+madman-espresso-new-york-5,Madman Espresso,$,4.5,(347) 781-1121,40.7326190878,-73.994047891
+st-anselm-brooklyn,St. Anselm,$$$,4.0,(718) 384-5054,40.7143299,-73.95604
+union-bar-and-kitchen-new-york,Union Bar & Kitchen,$$,4.0,(646) 791-0005,40.72572,-74.00798
+oficina-1m-new-york,Oficina 1M,$$,4.0,(718) 431-3332,40.7201030238,-73.9961178569
+mew-men-new-york-2,MEW MEN,$$,4.0,(212) 727-1050,40.731777,-74.001693
+mud-new-york-3,MUD,$$,4.0,(212) 228-9074,40.72905,-73.98668
+d-elici-new-york,d Elici,$,4.0,(212) 587-5740,40.70969,-74.00838
+izakaya-new-york-2,Izakaya,$$,4.0,(917) 697-7162,40.72679,-73.9873
+the-standing-room-long-island-city,The Standing Room,$$,4.5,(347) 309-7666,40.74445,-73.9538199
+jacks-stir-brew-coffee-new-york,Jack's Stir Brew Coffee,$$,4.0,(212) 929-0821,40.73451,-74.00062
+speedy-romeo-new-york,Speedy Romeo,$$,4.0,(212) 529-6300,40.719509,-73.985137
+werkstatt-brooklyn-2,Werkstatt,$$,4.5,(718) 284-5800,40.6452616,-73.9702023
+verlaine-new-york-2,Verlaine,$$,4.0,(212) 614-2494,40.720079,-73.987785
+red-eye-coffee-new-york,Red Eye Coffee,$$,4.5,(646) 678-3833,40.7533051,-73.9968115
+meadowsweet-brooklyn,Meadowsweet,$$$,4.0,(718) 384-0673,40.7103995,-73.9632384
+el-nopal-restaurant-and-juice-bar-brooklyn,El Nopal Restaurant & Juice Bar,$$,4.5,(718) 541-2732,40.66317,-73.9913399
+ramen-shack-long-island-city-3,Ramen Shack,$$,4.5,(929) 522-0285,40.7554119,-73.9414266
+dellanima-new-york,dell'anima,$$$,4.0,(212) 366-6633,40.7379511,-74.0039166
+ichabods-new-york,Ichabod's,$$,4.0,(212) 777-5102,40.7348034779,-73.9883648628
+gasoline-alley-coffee-new-york,Gasoline Alley Coffee,$$,4.0,(212) 933-0113,40.7254219,-73.9948196
+bolivian-llama-party-new-york-7,Bolivian Llama Party,$,4.5,(347) 395-5481,40.7671243,-73.9830144
+roasting-plant-new-york-4,Roasting Plant,$,4.0,(212) 775-7755,40.71781,-73.99051
+butcher-bar-new-york-2,Butcher Bar,$$,4.0,(212) 842-8000,40.72053,-73.98874
+feltmans-kitchen-new-york-2,Feltman's Kitchen,$,4.5,(646) 337-6755,40.72765,-73.98573
+bricolage-brooklyn,Bricolage,$$,4.0,(718) 230-1835,40.67792,-73.97975
+spreadhouse-cafe-new-york-3,Spreadhouse Cafe,$,4.0,(646) 524-6353,40.71891,-73.98585
+cocoron-new-york-2,Cocoron,$$,4.0,(212) 966-0800,40.7207236,-73.9953191
+rawsome-treats-new-york-12,Rawsome Treats,$$$,4.5,(646) 286-5162,40.7144037,-73.9876131
+la-tarte-flambee-new-york-4,La Tarte Flambee,$$,4.5,(917) 261-2070,40.74549559,-73.979576119
+east-wind-snack-shop-brooklyn,East Wind Snack Shop,$$,4.5,(929) 295-0188,40.6603409,-73.9799505
+balzem-new-york,Balzem,$$,4.0,(646) 837-7033,40.721388,-73.995415
+joes-pizza-new-york-7,Joe's Pizza,$,4.0,(212) 388-9474,40.733692,-73.988123
+noreetuh-new-york,Noreetuh,$$$,4.0,(646) 892-3050,40.7272682,-73.9852219
+baked-new-york,Baked,$$,4.0,(212) 775-0345,40.71864,-74.00482
+dekalb-market-hall-brooklyn-2,Dekalb Market Hall,$$,4.0,(929) 359-6555,40.6912509,-73.9832589
+taboonette-new-york,Taboonette,$$,4.0,(212) 510-7881,40.7347009,-73.9927323
+jane-new-york-2,Jane,$$,4.0,(212) 254-7000,40.727382,-74.000205
+carbone-new-york,Carbone,$$$$,4.0,(212) 254-3000,40.728,-74.0001497
+santa-salsa-brooklyn-2,Santa Salsa,$,4.5,(347) 683-2605,40.71435,-73.9609661
+runner-and-stone-brooklyn,Runner & Stone,$$,4.0,(718) 576-3360,40.67721,-73.985919
+brooklyn-star-brooklyn,Brooklyn Star,$$,4.0,(718) 599-9899,40.714592,-73.949764
+luzzos-bk-new-york,Luzzo's BK,$$,4.0,(718) 855-6400,40.690645,-73.995239
+tonys-pizza-spot-brooklyn,Tony's Pizza Spot,$,4.5,(718) 622-6395,40.6905899048,-73.9601821899
+barn-joo-35-new-york,Barn Joo 35,$$,4.0,(212) 564-4430,40.7496414185,-73.985824585
+tu-lus-gluten-free-bakery-new-york,Tu-Lu's Gluten-Free Bakery,$,4.0,(212) 777-2227,40.72945,-73.98473
+spicy-village-new-york,Spicy Village,$,4.0,(212) 625-8299,40.71695,-73.99327
+el-born-brooklyn,El Born,$$,4.5,(347) 844-9295,40.7243479164,-73.9512226101
+poquito-picante-brooklyn-2,Poquito Picante,$$,4.5,(718) 246-1700,40.6857420573,-73.9812619952
+enoteca-on-court-brooklyn-2,Enoteca on Court,$$,4.0,(718) 243-1000,40.6821365356,-73.9957122803
+spiegel-new-york-2,Spiegel,$$,4.0,(212) 228-2894,40.723690033,-73.9877853394
+posto-new-york,Posto,$$,4.0,(212) 716-1200,40.73483,-73.98282
+american-cheez-brooklyn,American Cheez,$,4.5,(347) 725-4665,40.6631983,-73.9846852
+southern-cross-coffee-new-york,Southern Cross Coffee,$,4.5,(646) 649-3463,40.72659,-73.98873
+yuca-bar-new-york,Yuca Bar,$$,4.0,(212) 982-9533,40.7262,-73.9836
+ramen-ya-new-york-5,Ramen-Ya,$$,4.0,(212) 989-5440,40.732536,-74.001681
+porteno-restaurant-new-york,Porteno Restaurant,$$$,4.5,(212) 695-9694,40.750499,-74.002525
+el-tenampa-brooklyn,El Tenampa,$,4.5,(718) 369-7508,40.6624253363,-73.9963044613
+pizza-moto-brooklyn-2,Pizza Moto,$$,4.5,(718) 834-6686,40.6746224,-74.0007999
+pokéworks-new-york-9,Pokéworks,$$,4.0,(646) 609-8848,40.73626,-73.99183
+los-papis-brooklyn,Los Papi's,$,4.5,(718) 596-6965,40.7021,-73.98444
+stanton-pizza-new-york-2,Stanton Pizza,$,4.0,(212) 533-4252,40.72073,-73.98671
+ai-fiori-new-york,Ai Fiori,$$$$,4.0,(212) 613-8660,40.7501161,-73.9838114
+the-wooly-daily-new-york,The Wooly Daily,$,4.5,(678) 439-6659,40.7122300099,-74.008551213
+ootoya-greenwich-village-new-york,Ootoya Greenwich Village,$$,4.0,(212) 473-4300,40.7333107,-73.9929962
+citizens-of-chelsea-new-york,Citizens of Chelsea,$$,4.0,(646) 649-3079,40.748123,-74.000569
+vinnies-pizzeria-brooklyn,Vinnie's Pizzeria,$,4.0,(718) 782-7078,40.718925,-73.956878
+ilili-new-york-2,ilili,$$$,4.0,(212) 683-2929,40.744415,-73.98793
+scalino-brooklyn-2,Scalino,$$,4.0,(718) 389-8600,40.7244699,-73.95151
+blank-slate-coffee-kitchen-new-york,Blank Slate Coffee + Kitchen,$$,4.0,(212) 683-7800,40.7453293,-73.9845257
+noormans-kil-brooklyn,Noorman's Kil,$$,4.0,(347) 384-2526,40.711521,-73.947796
+tocqueville-restaurant-new-york-2,Tocqueville Restaurant,$$$$,4.0,(212) 647-1515,40.7366267515,-73.9926824179
+butter-and-scotch-brooklyn-2,Butter & Scotch,$$,4.0,(347) 350-8899,40.6698939093,-73.9583220804
+bar-velo-brooklyn-brooklyn,Bar Velo Brooklyn,$$,5.0,(718) 599-6895,40.707069,-73.954429
+julias-ridgewood,Julia's,$$,4.5,(917) 909-1314,40.7032166,-73.9031296
+bedouin-tent-brooklyn,Bedouin Tent,$,4.0,(718) 852-5555,40.6869769801,-73.9843940499
+b-squared-new-york,B Squared,$$,4.5,(646) 362-3171,40.7615509,-73.9906616
+curry-ya-new-york,Curry-Ya,$$,4.0,(866) 602-8779,40.7292175293,-73.986038208
+sergimmo-salumeria-new-york,Sergimmo Salumeria,$$,4.0,(212) 967-4212,40.754296,-73.995498
+radegast-hall-and-biergarten-brooklyn,Radegast Hall and Biergarten,$$,4.0,(718) 963-3973,40.716641,-73.961498
+al-di-la-trattoria-brooklyn,Al Di La Trattoria,$$$,4.0,(718) 783-4565,40.6753326432,-73.981340475
+taylor-st-baristas-new-york,Taylor St Baristas,$,4.5,(212) 251-0719,40.7514719405,-73.9799013032
+levain-bakery-new-york-5,Levain Bakery,$$,4.5,(212) 874-6080,40.78147,-73.97914
+the-sea-fire-grill-new-york-4,The Sea Fire Grill,$$$,4.5,(212) 935-3785,40.7547012104,-73.9722555131
+the-wei-brooklyn,The Wei,$,4.0,(718) 260-8888,40.68983,-73.98171
+1-or-8-brooklyn,1 or 8,$$$,4.0,(718) 384-2152,40.714257,-73.965457
+poke-bowl-new-york-2,Poke Bowl,$$,4.0,(646) 371-9773,40.7096727401,-74.0067670385
+skate-brooklyn-brooklyn,Skate Brooklyn,$$,5.0,,40.6816,-73.9797
+a-and-e-supply-brooklyn-10,A&E Supply,$$,4.5,(718) 635-3388,40.6668699,-73.9917276
+shake-shack-brooklyn-12,Shake Shack,$$,4.0,(347) 435-2676,40.7030151,-73.9939538
+sushi-daizen-long-island-city,Sushi Daizen,$$$$,4.5,(718) 729-1297,40.74445,-73.9538199
+havana-social-hells-kitchen-new-york,Havana Social - Hell's Kitchen,$$,4.5,(212) 956-2155,40.7635084288,-73.9924817304
+root-and-bone-new-york,Root & Bone,$$,4.0,(646) 682-7080,40.72272,-73.98334
+maiella-long-island-city,Maiella,$$$,4.5,(718) 606-1770,40.7470416596,-73.9565790024
+her-name-is-han-new-york-3,Her Name Is Han,$$,4.0,(212) 779-9990,40.7462615967,-73.9847335815
+ñaño-ecuadorian-kitchen-new-york,Ñaño Ecuadorian Kitchen,$$,4.5,(646) 649-4678,40.7631,-73.99335
+skinny-dennis-brooklyn,Skinny Dennis,$,4.0,(212) 555-1212,40.715863,-73.962168
+walter-foods-brooklyn,Walter Foods,$$,4.0,(718) 387-8783,40.713588,-73.958488
+louie-and-chan-new-york,Louie and Chan,$$,4.0,(212) 837-2816,40.7187118,-73.9924058
+l-e-s-kitchen-new-york,L.E.S Kitchen,$,4.0,(646) 952-2313,40.715178,-73.9900949
+pippali-new-york,Pippali,$$,4.0,(212) 689-1999,40.74241,-73.98325
+everyman-espresso-new-york-2,Everyman Espresso,$$,4.0,,40.7213607,-74.0044096
+red-hook-bait-and-tackle-brooklyn,Red Hook Bait & Tackle,$,4.5,(718) 451-4665,40.679157,-74.011161
+vin-et-fleurs-new-york,Vin et Fleurs,$$,4.0,(212) 431-3335,40.72448,-74.00327
+galeria-new-york-7,Galeria,$$,4.5,(917) 675-6887,40.719955,-73.984901
+the-casbah-halal-cart-new-york,The Casbah - Halal Cart,$,4.5,(929) 401-8654,40.7737371863,-73.9817136526
+noodle-pudding-brooklyn,Noodle Pudding,$$,4.0,(718) 625-3737,40.69979,-73.99203
+tiger-box-brooklyn,Tiger Box,$,4.5,(646) 320-1177,40.6963379,-73.972758
+milk-and-hops-new-york,Milk and Hops,$$,4.5,(212) 995-5588,40.7313816129,-73.9916460329
+tramezzini-nyc-new-york,Tramezzini NYC,$,4.5,(646) 204-6890,40.7211848352,-73.9834727264
+barons-brooklyn,Baron's,$$,4.5,(718) 230-7100,40.6908116,-73.953915
+hillstone-restaurant-new-york,Hillstone Restaurant,$$$,4.0,(212) 689-1090,40.7427534,-73.9847308
+mighty-bowl-new-york-6,MIGHTY Bowl,$,4.5,(646) 649-5603,40.75101,-73.9717
+grounded-new-york,Grounded,$,4.0,(212) 647-0943,40.737976,-74.003433
+jo-juice-and-salad-bar-brooklyn,Jo Juice & Salad Bar,$,4.5,(718) 552-2524,40.6874154394,-73.9546937528
+alta-new-york,Alta,$$$,4.0,(212) 505-7777,40.7345163811,-73.998336962
+marshall-stack-new-york,Marshall Stack,$$,4.0,(212) 228-4667,40.720737,-73.989944
