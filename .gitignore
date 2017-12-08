@@ -8,6 +8,8 @@ model/datasets/processed/tripdata/*
 model/separate.py
 model/datasets/tripdata_reduced/*
 model/*.pyc
+model/temp.py
+
 
 
 
