@@ -4,9 +4,9 @@
 model/datasets/raw/*.csv
 model/yelp_secret.txt
 model/datasets/processed/restaurants_data/*
-model/datasets/processed/tripdata/*
+model/datasets/processed/tripdata/*.csv
 model/separate.py
-model/datasets/tripdata_reduced/*
+model/datasets/tripdata_reduced/*.csv
 model/*.pyc
 model/temp.py
 
