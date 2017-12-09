@@ -88,7 +88,8 @@ def single_reduce(year, month):
 
 
 def main():
-    reducer()
+    # reducer()
+    single_reduce(2016, 6)
 
 
 if __name__ == '__main__':
