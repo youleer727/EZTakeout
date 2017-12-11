@@ -2,6 +2,7 @@
 .DS_Store
 .vscode/*
 model/datasets/raw/*.csv
+model/datasets/raw/*.json
 model/yelp_secret.txt
 model/datasets/processed/restaurants_data/*
 model/datasets/processed/tripdata/*.csv

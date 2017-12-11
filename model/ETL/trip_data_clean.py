@@ -2,7 +2,7 @@
 data_clean.py is for tripdata cleaning
 """
 import fileinput
-from utils import datasets_path, raw_data_path, trip_data_attributes, trip_data_prefix, month_range, trip_data_suffix
+from utils import raw_data_path, trip_data_prefix, month_range
 import time
 import sys
 

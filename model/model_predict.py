@@ -1,4 +1,4 @@
 from sklearn import linear_model
 from sklearn.externals import joblib
-clf = joblib.load('model.pkl')
+clf = joblib.load('trip_distance.linear_regression_model.pkl')
 print clf.predict([[0, 1, 3.16]])

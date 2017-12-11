@@ -5,9 +5,8 @@ import time
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext
 from pandas import DataFrame
-import os.path
 from datetime import datetime
-from utils import datasets_path, raw_data_path, trip_data_attributes, trip_data_prefix, month_range, trip_data_suffix
+from utils import datasets_path, trip_data_suffix
 
 conf = SparkConf().setAppName("EECS6893")
 sc = SparkContext(conf=conf)
@@ -89,7 +88,7 @@ def single_reduce(year, month):
 
 def main():
     # reducer()
-    single_reduce(2016, 6)
+    single_reduce(2016, 8)
 
 
 if __name__ == '__main__':
