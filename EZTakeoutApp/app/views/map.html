@@ -1,0 +1,33 @@
+<head>
+  <link rel="stylesheet" href="../styles/map.css">
+</head>
+<body>
+  <div class="container-fluid map-container">
+    <div class="text-center" id="loading" class="map-div">
+      <h1 class="ui header centered">loading...</h1>
+      <img class="ui huge centered image" src="../images/loading.gif" alt="">
+    </div>
+    <div id="loaded" class="map-div">
+      <div class="sidebar" id="sidebar">
+        <h1 id="forceblack">Locations</h1>
+        <div id="listings" class="listings"></div>
+      </div>
+    </div>
+    <div class="text-center" id="zero-results" class="map-div">
+      <div class="row">
+        <div class="col-md-3">
+          <h1>Zero results!</h1>
+          <h6>
+            Please reload the page and enable geolocation services if they aren't currently.
+          </h6>
+        </div>
+      </div>
+
+    </div>
+    <div id="error" class="map-div">
+      <h1>Error!</h1>
+      <h3 id="error-msg"></h3>
+    </div>
+    <div id="map" class="map"></div>
+  </div>
+</body>

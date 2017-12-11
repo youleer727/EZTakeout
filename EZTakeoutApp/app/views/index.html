@@ -1,0 +1,103 @@
+<head>
+  <link rel="stylesheet" href="../styles/index.css">
+    <script>
+        $('.ui.dropdown')
+                .dropdown();
+    </script>
+</head>
+
+<body class="pushable" ng-controller="MainCtrl">
+<!-- Page Contents -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+
+        <div class="ui container">
+            <div class="ui large secondary inverted pointing menu">
+                <a class="toc item">
+                    <i class="sidebar icon"></i>
+                </a>
+                <a class="active item" href="/">Home</a>
+                <a class="item" href="https://github.com/youleer727/EZTakeout">GitHub</a>
+                <a class="item" href="mailto:yc3313@columbia.com" target="_top">Mail</a>
+                <div class="right item">
+                    <a class="ui inverted button" href="https://www.ee.columbia.edu/~cylin/course/bigdata/">Course</a>
+                    <a class="ui inverted button" href="http://www.ee.columbia.edu/ching-yung-lin">Professor</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui text container">
+            <h1 class="ui inverted header">
+                EZ Takeout
+            </h1>
+            <h2>Fast, opinionated, minimalist restaurant hunt for you</h2>
+            <div class="ui huge primary button scroll" href="#nav2" id="jumper1">Get Started <i class="right arrow icon"></i></div>
+        </div>
+
+    </div>
+
+    <div id="nav2" class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="eight wide column">
+                    <h3 class="ui header">How much time you want to spend waiting</h3>
+                    <p>Uber powers local restaurants to do things that they never thought possible. Let Uber delight your stomach...through pure data analytics.</p>
+                    <h3 class="ui header">Determine the cost level</h3>
+                    <p>Yes that's right, money is always a concern</p>
+                    <h3 class="ui header">Give us a little hint about what you wanna eat</h3>
+                    <p>Pick the most possible one, although you have many</p>
+                </div>
+                <div class="six wide right floated column">
+                    <form class="ui form">
+                        <div class="field">
+                            <label>Time to spend (min)</label>
+                            <input class="ui massive icon input" ng-model="time_val" ng-pattern="/^[0-9]+$/" type="text" name="time" placeholder="something like 20">
+                        </div>
+                        <div class="field">
+                            <label>How much money ($USD)</label>
+                            <input class="ui massive icon input" ng-model="cost_val" ng-pattern="/^[0-9]+$/" name="cost" placeholder="Maybe 30?">
+                        </div>
+                        <div class="field">
+                            <label>Food Type</label>
+                            <div class="ui selection dropdown">
+                                <input type="hidden" name="foodtype">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Pizza</div>
+                                <div class="menu">
+                                    <div class="item" data-value="pizza" ng-click="select('pizza')">Pizza</div>
+                                    <div class="item" data-value="burger" ng-click="select('burger')">Burger</div>
+                                    <div class="item" data-value="taco" ng-click="select('taco')">Taco</div>
+                                    <div class="item" data-value="burrito" ng-click="select('burrito')">Burrito</div>
+                                    <div class="item" data-value="sushi" ng-click="select('sushi')">Sushi</div>
+                                    <div class="item" data-value="icecream" ng-click="select('icecream')">Ice cream</div>
+                                    <div class="item" data-value="donut" ng-click="select('donut')">Donut</div>
+                                    <div class="item" data-value="bar" ng-click="select('bar')">Bar</div>
+                                    <div class="item" data-value="indian" ng-click="select('indian')">Indian</div>
+                                    <div class="item" data-value="noodles" ng-click="select('noodles')"Noodles</div>
+                                    <div class="item" data-value="coffee" ng-click="select('coffee')">Coffee</div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="center aligned column">
+            <a class="ui huge button" ng-href={{redirectUrl()}}>Check Them Out</a>
+        </div>
+    </div>
+    </div>
+<div></div>
+  </div>
+<script>
+    $(function() {
+        $(".scroll").on("click", function( e ) {
+            e.preventDefault();
+            $("body, html").animate({
+                scrollTop: $( $(this).attr('href') ).offset().top
+            }, 600);
+        });
+    });
+</script>
+</body>
