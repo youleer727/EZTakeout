@@ -24,13 +24,16 @@ if os.path.isfile(target_amount_file) and os.path.isfile(target_time_file):
     val1 = clf_amount.predict([[start_hour, total_amount]])[0]
     clf_time = joblib.load(target_time_file)
     val2 = clf_time.predict([start_hour, time_spent])[0]
-    print
+    if val1 > val2:
+        print val1
+    else:
+        print val2
 else:
     clf_amount = joblib.load('trip_distance.linear_regression_model.amount.pkl')
     val1 = clf_amount.predict([[start_hour, total_amount]])[0]
     clf_time = joblib.load('trip_distance.linear_regression_model.time.pkl')
     val2 = clf_time.predict([[start_hour, time_spent]])[0]
-    if (val1 < val2):
+    if val1 > val2:
         print val1
     else:
         print val2

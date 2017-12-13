@@ -11,6 +11,7 @@ model/datasets/processed/tripdata_reduced/*.csv
 model/*.pyc
 model/temp.py
 model/.ipynb_checkpoints/*
+model/20170401/*
 
 
 
