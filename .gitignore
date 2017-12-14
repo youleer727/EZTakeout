@@ -12,6 +12,7 @@ model/*.pyc
 model/temp.py
 model/.ipynb_checkpoints/*
 model/20170401/*
+EZTakeoutApp/app/bower_components/*
 
 
 

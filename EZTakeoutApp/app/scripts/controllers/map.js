@@ -70,7 +70,7 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
         "long": long,
         "lat": lat,
         "radius": 1000,
-        "limit": 30
+        "limit": 10
       },
       success: function(response) {
         YelpCallback(response);

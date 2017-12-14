@@ -39,6 +39,7 @@ app.post('/ip', function(req, res) {
 });
 
 app.post('/yelp', function(req, res) {
+    console.log('receiving request from frontend');
     console.log(req.body);
     // { month: '11',
     //         day: '10',
@@ -53,6 +54,7 @@ app.post('/yelp', function(req, res) {
     //         limit: '30' }
     var month = req.body.day + 1;
     var day = req.body.day;
+    var hour = Number(req.body.hour);
     var time_range = Number(req.body.time_range);
     var foodtype = req.body.food_type;
     var cost_range = Number(req.body.cost_range);
@@ -62,8 +64,11 @@ app.post('/yelp', function(req, res) {
     function convertMileToMeters(i) {
         return Math.floor(i*1609.344);
     }
-
-    var options = {};
+    var passenger_count = '1';
+    //TODO: handle the format of hour
+    var options = {
+        args:[hour.toString(), passenger_count, cost_range.toString(), time_range.toString()]
+    };
     var radius = null;
     // PythonShell.run('model_predict.py', options, function (err, results) {
     //     if (err) throw err;
@@ -101,11 +106,10 @@ app.post('/yelp', function(req, res) {
             radius: radius,
             limit: req.body.limit
         };
-        console.log('search request ' + searchRequest.radius);
         yelp.accessToken(client_id, client_secret).then(response => {
             const client = yelp.client(response.jsonBody.access_token);
         client.search(searchRequest).then(response => {
-            console.log("Yelp API Call Successful. Found " + response.jsonBody.businesses.length + " restaurants");
+            console.log("Found " + response.jsonBody.businesses.length + " restaurants");
         if (response.jsonBody.businesses.length < 1) {
             console.log("Zero results");
         }

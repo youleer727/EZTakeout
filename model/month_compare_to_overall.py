@@ -14,10 +14,12 @@ years = [2016, 2016, 2016, 2016, 2016, 2016, 2017, 2017, 2017, 2017, 2017, 2017]
 months = [6, 7, 9, 10, 11, 12, 1, 2, 3, 4, 5, 6]
 start_hour = 6
 
+
 def convertMonth(month):
     if month < 10:
         return '0' + str(month)
     return str(month)
+
 
 def load_all_months_models():
     for i in range(len(years)):
@@ -25,6 +27,7 @@ def load_all_months_models():
         amount_model = str(years[i]) + '-' + convertMonth(months[i]) + '.amount.pkl'
         yield joblib.load(time_model)
         yield joblib.load(amount_model)
+
 
 def load_overall_model():
     yield joblib.load('trip_distance.linear_regression_model.time.pkl')
@@ -277,24 +280,25 @@ def all_months_predict_time():
 
 
 def test():
+    clf_time, clf_amount = load_overall_model()
     times = []
     for val in range(100):
         times.append(val)
     passenger_count = 1
     results_time = []
     results_amount = []
-
+    #
     for var in times:
         results_time.append(clf_time.predict([[start_hour, var]])[0])
         results_amount.append(clf_amount.predict([[start_hour, var]])[0])
-    plt.plot(times, results_time)
-    plt.plot(times, results_amount, c='firebrick')
-    plt.show()
-    # for distance in distances:
-    #     for amount in amounts:
-    #         print 'distance is ' + str(distance)
-    #         print 'amount is ' + str(amount)
-    #         results.append(clf.predict([[start_hour , passenger_count, amount, distance]])[0])
+    # plt.plot(times, results_time)
+    # plt.plot(times, results_amount, c='firebrick')
+    # plt.show()
+    # # for distance in distances:
+    # #     for amount in amounts:
+    # #         print 'distance is ' + str(distance)
+    # #         print 'amount is ' + str(amount)
+    # #         results.append(clf.predict([[start_hour , passenger_count, amount, distance]])[0])
     # # print distances
     # # print amounts
     # # print results
@@ -303,38 +307,39 @@ def test():
     # plt.xlabel('time')
     # plt.show()
 
-    # path = "./20170401"
-    # files = os.listdir(path)
-    # for file in files:
-    #     print file
-    # distance = []
-    # amount = []
-    # time = []
-    # for file in files:
-    #     if not os.path.isdir(file):
-    #         flag = 1
-    #         with open(path + "/" + file) as f:
-    #             lines = csv.reader(f)
-    #             for line in lines:
-    #                 if flag:
-    #                     flag = 0
-    #                     continue
-    #                 distance.append(float(line[2]))
-    #                 amount.append(float(line[3]))
-    #                 time.append(float(line[4]))
-    #
+    path = "./datasets/processed/tripdata_reduced"
+    files = os.listdir(path)
+    for file in files:
+        print file
+    distance = []
+    amount = []
+    time = []
+    for file in files:
+        if not os.path.isdir(file):
+            flag = 1
+            with open(path + "/" + file) as f:
+                lines = csv.reader(f)
+                for line in lines:
+                    if flag:
+                        flag = 0
+                        continue
+                    distance.append(float(line[2]))
+                    amount.append(float(line[3]))
+                    time.append(float(line[4]))
+
     # plt.scatter(time, distance, s=1)
-    # plt.xlabel('time')
-    # plt.plot(times, results_time, c='r')
-    #
-    # # plt.scatter(amount, distance, s=10)
-    # # plt.xlabel('money spent')
-    # # plt.plot(times, results_amount, c='r')
-    #
-    # plt.ylabel('distance')
-    #
-    # plt.axis([0, 100, 0, 30])
-    # plt.show()
+    plt.scatter(amount, distance, s=1)
+    plt.xlabel('time')
+    plt.plot(times, results_time, c='r')
+
+    # plt.scatter(amount, distance, s=10)
+    # plt.xlabel('money spent')
+    # plt.plot(times, results_amount, c='r')
+
+    plt.ylabel('distance')
+
+    plt.axis([0, 100, 0, 30])
+    plt.show()
 
 
 def test_start_time():
@@ -359,10 +364,10 @@ def test_start_time():
 
 
 if __name__ == '__main__':
-    # test()
+    test()
     # all_months_predict_time()
     # compare_all_months_to_overall_time()
     # all_months_predict_amount()
-    compare_all_months_to_overall_cost()
+    # compare_all_months_to_overall_cost()
 
 
