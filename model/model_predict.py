@@ -5,6 +5,8 @@ from sklearn.externals import joblib
 import datetime
 import os.path
 
+# TODO: modify predict scheme focusing on month instead of year
+
 def convertMonth(month):
     if month < 10:
         return '0' + str(month)
