@@ -162,7 +162,30 @@ EZ Takeout is a course project aimed for Uber & Yelp combined analytics and appl
 
 ### Explanations and Instructions
 
-1. Download all datasets, both taxi datasets & yelp datasets into **[raw]** folder
+#### Analytics
+
+1. Refer to `requirements.txt`, use `virtualenv` to load all necessary python packages
+2. Download all datasets, both taxi datasets & yelp datasets into **[raw]** folder
+3. Command into [ETL] folder, execute `trip_data_clean.py` and `trip_data_extraction.py` to generate all necessary extracted datasets in [tripdata]
+4. Use Spark `spark-submit month-day-reducer.py` to generate all reduced datasets in [tripdata_reduced]
+5. Find `hours_compare_to_all.py`, `month_compare_to_overall.py`, `Reviews_Stars.ipynb` in [model] folder, execute these to see all analytical graphs
+
+#### Application
+
+1. Make sure you have `npm` and `bower` properly installed
+2. Command into [EZTakeoutApp]
+3. run `npm install && bower install`
+4. execute `mv bower_components app/bower_components`
+5. run `npm start`
+
+You can also ignore 3-5 steps by simply execute `bash exec.sh`
+
 
 [New York Taxi Data]:<http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml>
 [Yelp DataSet]:<https://www.yelp.com/dataset/challenge>
+[raw]:<https://github.com/youleer727/EZTakeout/tree/master/model/datasets/raw>
+[ETL]:<https://github.com/youleer727/EZTakeout/tree/master/model/ETL>
+[tripdata]:<https://github.com/youleer727/EZTakeout/tree/master/model/datasets/processed/tripdata>
+[tripdata_reduced]:<https://github.com/youleer727/EZTakeout/tree/master/model/datasets/processed/tripdata_reduced>
+[model]:<https://github.com/youleer727/EZTakeout/tree/master/model>
+[EZTakeoutApp]:<https://github.com/youleer727/EZTakeout/tree/master/EZTakeoutApp>
