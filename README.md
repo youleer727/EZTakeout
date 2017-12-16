@@ -1,55 +1,168 @@
-# bigdata_retail
+# EZ Takeout
 
- - Note this project is written using Python 2.7
- - Note this data is ignored therefore not uploaded to github
- 
- 
-data:
-http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
+EZ Takeout is a course project aimed for Uber & Yelp combined analytics and application
+  - EECS 6893 Big Data Analytics
+  - Team **Yulong Qiao yq2212**, **Yang Chen yc3313** and **Xiyan Liu xl2672**
 
-yellow cab: 2016.06 - 2017.06
+## Project Structure
 
-a ``requirements.txt`` will be provided.
+    EZTakeout
+    ├── EZTakeoutApp
+    │   ├── 2016-06.amount.pkl
+    │   ├── 2016-06.time.pkl
+    │   ├── 2016-07.amount.pkl
+    │   ├── 2016-07.time.pkl
+    │   ├── 2016-09.amount.pkl
+    │   ├── 2016-09.time.pkl
+    │   ├── 2016-10.amount.pkl
+    │   ├── 2016-10.time.pkl
+    │   ├── 2016-11.amount.pkl
+    │   ├── 2016-11.time.pkl
+    │   ├── 2016-12.amount.pkl
+    │   ├── 2016-12.time.pkl
+    │   ├── 2017-01.amount.pkl
+    │   ├── 2017-01.time.pkl
+    │   ├── 2017-02.amount.pkl
+    │   ├── 2017-02.time.pkl
+    │   ├── 2017-03.amount.pkl
+    │   ├── 2017-03.time.pkl
+    │   ├── 2017-04.amount.pkl
+    │   ├── 2017-04.time.pkl
+    │   ├── 2017-05.amount.pkl
+    │   ├── 2017-05.time.pkl
+    │   ├── 2017-06.amount.pkl
+    │   ├── 2017-06.time.pkl
+    │   ├── Gruntfile.js
+    │   ├── app
+    │   │   ├── 404.html
+    │   │   ├── images
+    │   │   │   └── loading.gif
+    │   │   ├── index.html
+    │   │   ├── robots.txt
+    │   │   ├── scripts
+    │   │   │   ├── app.js
+    │   │   │   └── controllers
+    │   │   │       ├── index.js
+    │   │   │       └── map.js
+    │   │   ├── styles
+    │   │   │   ├── index.css
+    │   │   │   └── map.css
+    │   │   └── views
+    │   │       ├── index.html
+    │   │       └── map.html
+    │   ├── app.js
+    │   ├── bower.json
+    │   ├── config.json
+    │   ├── exec.sh
+    │   ├── model_predict.py
+    │   ├── package-lock.json
+    │   ├── package.json
+    │   ├── test
+    │   │   ├── karma.conf.js
+    │   │   └── spec
+    │   │       └── controllers
+    │   │           ├── about.js
+    │   │           └── main.js
+    │   ├── trip_distance.linear_regression_model.amount.pkl
+    │   └── trip_distance.linear_regression_model.time.pkl
+    ├── EZTakeout_TeamI194_Final\ Pre.pdf
+    ├── README.md
+    ├── model
+    │   ├── 2016-06.amount.pkl
+    │   ├── 2016-06.time.pkl
+    │   ├── 2016-07.amount.pkl
+    │   ├── 2016-07.time.pkl
+    │   ├── 2016-09.amount.pkl
+    │   ├── 2016-09.time.pkl
+    │   ├── 2016-10.amount.pkl
+    │   ├── 2016-10.time.pkl
+    │   ├── 2016-11.amount.pkl
+    │   ├── 2016-11.time.pkl
+    │   ├── 2016-12.amount.pkl
+    │   ├── 2016-12.time.pkl
+    │   ├── 2017-01.amount.pkl
+    │   ├── 2017-01.time.pkl
+    │   ├── 2017-02.amount.pkl
+    │   ├── 2017-02.time.pkl
+    │   ├── 2017-03.amount.pkl
+    │   ├── 2017-03.time.pkl
+    │   ├── 2017-04.amount.pkl
+    │   ├── 2017-04.time.pkl
+    │   ├── 2017-05.amount.pkl
+    │   ├── 2017-05.time.pkl
+    │   ├── 2017-06.amount.pkl
+    │   ├── 2017-06.time.pkl
+    │   ├── ETL
+    │   │   ├── count.txt
+    │   │   ├── find_columbia.py
+    │   │   ├── month_day_reducer.py
+    │   │   ├── trip_data_clean.py
+    │   │   ├── trip_data_extraction.py
+    │   │   ├── utils.py
+    │   │   └── yelp_retrieval.py
+    │   ├── Reviews_Stars.ipynb
+    │   ├── datasets
+    │   │   └── processed
+    │   │       ├── tripdata
+    │   │       │   └── dummy.txt
+    │   │       └── tripdata_reduced
+    │   │           └── dummy.txt
+    │   ├── exec.sh
+    │   ├── graphs
+    │   │   ├── distance-cost-predict_by_months.png
+    │   │   ├── distance-cost-predict_by_months_overall.png
+    │   │   ├── distance-cost-predict_by_overall_with_hours.png
+    │   │   ├── distance-time-predict_by_months.png
+    │   │   ├── distance-time-predict_by_months_overall.png
+    │   │   ├── distance-time-predict_by_overall_with_hours.png
+    │   │   ├── distance_time_scatter.png
+    │   │   ├── stars-reviews.LR.png
+    │   │   ├── stars-reviews.png
+    │   │   └── wordcloud.jpg
+    │   ├── hours_compare_to_overall.py
+    │   ├── model_predict.py
+    │   ├── month_compare_to_overall.py
+    │   ├── train_trip_model.py
+    │   ├── trip_distance.linear_regression_model.amount.pkl
+    │   └── trip_distance.linear_regression_model.time.pkl
+    ├── pkl
+    │   ├── 2016-06.amount.pkl
+    │   ├── 2016-06.time.pkl
+    │   ├── 2016-07.amount.pkl
+    │   ├── 2016-07.time.pkl
+    │   ├── 2016-09.amount.pkl
+    │   ├── 2016-09.time.pkl
+    │   ├── 2016-10.amount.pkl
+    │   ├── 2016-10.time.pkl
+    │   ├── 2016-11.amount.pkl
+    │   ├── 2016-11.time.pkl
+    │   ├── 2016-12.amount.pkl
+    │   ├── 2016-12.time.pkl
+    │   ├── 2017-01.amount.pkl
+    │   ├── 2017-01.time.pkl
+    │   ├── 2017-02.amount.pkl
+    │   ├── 2017-02.time.pkl
+    │   ├── 2017-03.amount.pkl
+    │   ├── 2017-03.time.pkl
+    │   ├── 2017-04.amount.pkl
+    │   ├── 2017-04.time.pkl
+    │   ├── 2017-05.amount.pkl
+    │   ├── 2017-05.time.pkl
+    │   ├── 2017-06.amount.pkl
+    │   ├── 2017-06.time.pkl
+    │   ├── trip_distance.linear_regression_model.amount.pkl
+    │   └── trip_distance.linear_regression_model.time.pkl
+    └── requirements.txt
 
-Extracting attributes from dataset yellow_tripdata_2016-06.csv
-6796814 lines extracted
-Elapsed time : 41.4895160198 s
-Extracting attributes from dataset yellow_tripdata_2016-07.csv
-10294081 lines extracted
-Elapsed time : 51.1051459312 s
-Extracting attributes from dataset yellow_tripdata_2016-08.csv
-4612854 lines extracted
-Elapsed time : 23.1119160652 s
-Extracting attributes from dataset yellow_tripdata_2016-09.csv
-1926870 lines extracted
-Elapsed time : 9.35104823112 s
-Extracting attributes from dataset yellow_tripdata_2016-10.csv
-10854627 lines extracted
-Elapsed time : 53.5400910378 s
-Extracting attributes from dataset yellow_tripdata_2016-11.csv
-10102129 lines extracted
-Elapsed time : 49.6724131107 s
-Extracting attributes from dataset yellow_tripdata_2016-12.csv
-10449409 lines extracted
-Elapsed time : 51.0355029106 s
-Extracting attributes from dataset yellow_tripdata_2017-01.csv
-9710125 lines extracted
-Elapsed time : 47.639756918 s
-Extracting attributes from dataset yellow_tripdata_2017-02.csv
-9168826 lines extracted
-Elapsed time : 44.5178658962 s
-Extracting attributes from dataset yellow_tripdata_2017-03.csv
-10294629 lines extracted
-Elapsed time : 50.9746389389 s
-Extracting attributes from dataset yellow_tripdata_2017-04.csv
-10046189 lines extracted
-Elapsed time : 49.8180420399 s
-Extracting attributes from dataset yellow_tripdata_2017-05.csv
-10102125 lines extracted
-Elapsed time : 49.8025541306 s
-Extracting attributes from dataset yellow_tripdata_2017-06.csv
-9656994 lines extracted
-Elapsed time : 47.3736829758 s
 
+### Data Sources
 
-data after attribute extraction: 114,015,672
+ - 100 million lines 1-year Jun. 2016 - Jun. 2017[New York Taxi Data]
+ - 4.7 million lines [Yelp DataSet]
+
+### Explanations and Instructions
+
+1. Download all datasets, both taxi datasets & yelp datasets into **[raw]** folder
+
+[New York Taxi Data]:<http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml>
+[Yelp DataSet]:<https://www.yelp.com/dataset/challenge>
