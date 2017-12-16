@@ -21,12 +21,10 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
       long = position.coords.longitude;
       getYelpAndMap();
     }, function() {
-      console.log("obtain location from brower failed.");
-      console.log("trying to determine location from backend");
       getIpFromBackend();
     });
   } else {
-    console.log("Geolocation is not supported by this browser.");
+    console.log("geo function is disabled");
     getIpFromBackend();
   }
 
@@ -37,7 +35,7 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
         var error = response.error;
         if (error) {
           reveal(error);
-          $("#error-msg").text("IP Lookup failed");
+          $("#error-msg").text("ip lookup failed");
         } else {
           lat = response.lat;
           long = response.long;
@@ -45,7 +43,6 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
         }
       },
       error: function(xhr) {
-        console.log("Failure");
         console.log(xhr);
       },
       url: POST_baseurl + "ip"
@@ -54,8 +51,6 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
 
 
   function getYelpAndMap() {
-
-    // -------------------------- // Yelp API Call // ------------------------- //
     var today = new Date();
     $.ajax({
       type: "POST",
@@ -63,9 +58,9 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
         "month": today.getMonth(),
         "day": today.getDate(),
         "hour": today.getHours(),
-        "time_range": getParameterByName("time", window.location.href),
-        "food_type": getParameterByName("type", window.location.href),
-        "cost_range": getParameterByName("cost", window.location.href),
+        "time_range": getAttributes("time", window.location.href),
+        "food_type": getAttributes("type", window.location.href),
+        "cost_range": getAttributes("cost", window.location.href),
         "geolocation": false,
         "long": long,
         "lat": lat,
@@ -82,12 +77,12 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
       url: POST_baseurl + "yelp"
     });
 
-    mapboxgl.accessToken = "pk.eyJ1IjoiamVyZW15c21vcmdhbiIsImEiOiJjaWxjemtvYWEzejR4dHlseGlkaGZmb2t5In0.BOYaLR5RW0tbUPTFuz5Y0g";
+      mapboxgl.accessToken = "pk.eyJ1IjoieWxxaWFvMTM0MSIsImEiOiJjamI4bnEwdXcwN2hhMzNxcXhmb2xxaWVsIn0.cXxo1gK3catZKtPykP5_7g";
     map = new mapboxgl.Map({
       container: "map",
-      style: "mapbox://styles/jeremysmorgan/cixxc3h1i00232rqjeeagcb2l",
+      style: "mapbox://styles/ylqiao1341/cjb8nqfz93n1r2rnqz0e0lfvg",
       center: [long, lat],
-      zoom: 13
+      zoom: 15
     });
 
     map.on("load", function(e) {
@@ -101,24 +96,22 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
     yelp_data = data;
     console.log(data);
     if (map_loaded) {
-      console.log("yelp called back second, map load. Entering main()");
-      main();
+      revealMap();
     } else {
-      console.log("yelp called back first, map not loaded");
+      console.log("map not loaded");
     }
   }
 
   function MapCallback(e) {
     map_loaded = true;
     if (yelp_loaded) {
-      console.log("map called back second, entering main");
-      main();
+      revealMap();
     } else {
-      console.log("map called back first, yelp not loaded");
+      console.log("yelp not loaded");
     }
   }
 
-  function main() {
+  function revealMap() {
     reveal("loaded");
     var data = yelp_data;
     console.log("data: ");
@@ -196,7 +189,6 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
         }
       });
 
-      // --------------------------------- // Map Event Listeners // -------------------------------- //
       map.on('click', function(e) {
         var features = map.queryRenderedFeatures(e.point, {
           layers: ['locations']
@@ -266,8 +258,6 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
         })
         .setLngLat(currentFeature.geometry.coordinates)
         .setHTML('<h3>' + currentFeature.properties.title + '</h3>' +
-
-
           "<a href='https://www.google.com/maps/place/" + currentFeature.properties.address + "'>" +
           '<h4>' + currentFeature.properties.address + '</h4></a>')
         .addTo(map);
@@ -284,8 +274,7 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
   }
 
 
-  // -------------------------- // Accessory Functions  // ------------------------- //
-  function getParameterByName(name, url) {
+  function getAttributes(name, url) {
     if (!url) {
       url = window.location.href;
     }

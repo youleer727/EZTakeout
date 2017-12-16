@@ -10,8 +10,8 @@ const client_id = config.client_id;
 const client_secret = config.client_secret;
 
 var app = express();
-app.use(bodyParser.json()); // to support JSON-encoded bodies
-app.use(bodyParser.urlencoded({ // to support URL-encoded bodies
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
     extended: true
 }));
 
@@ -41,17 +41,6 @@ app.post('/ip', function(req, res) {
 app.post('/yelp', function(req, res) {
     console.log('receiving request from frontend');
     console.log(req.body);
-    // { month: '11',
-    //         day: '10',
-    //         hour: '19',
-    //         time_range: '4',
-    //         food_type: 'sushi',
-    //         cost_range: '5',
-    //         geolocation: 'false',
-    //         long: '-73.9599375',
-    //         lat: '40.807598399999996',
-    //         radius: '1000',
-    //         limit: '30' }
     var month = req.body.day + 1;
     var day = req.body.day;
     var hour = Number(req.body.hour);
@@ -70,20 +59,6 @@ app.post('/yelp', function(req, res) {
         args:[hour.toString(), passenger_count, cost_range.toString(), time_range.toString()]
     };
     var radius = null;
-    // PythonShell.run('model_predict.py', options, function (err, results) {
-    //     if (err) throw err;
-    //     // results is an array consisting of messages collected during execution
-    //     radius = convertMileToMeters(Number(results[0]));
-    //     console.log('radius is ' + radius);
-    // });
-    // const searchRequest = {
-    //     term: req.body.food_type,
-    //     latitude: lat,
-    //     longitude: long,
-    //     radius: radius,
-    //     limit: req.body.limit
-    // };
-
     var getRadius = function() {
         return new Promise(function(resolve, reject) {
             PythonShell.run('model_predict.py', options, function (err, results) {
