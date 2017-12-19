@@ -76,15 +76,13 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
       },
       url: POST_baseurl + "yelp"
     });
-
-      mapboxgl.accessToken = "pk.eyJ1IjoieWxxaWFvMTM0MSIsImEiOiJjamI4bnEwdXcwN2hhMzNxcXhmb2xxaWVsIn0.cXxo1gK3catZKtPykP5_7g";
+    mapboxgl.accessToken = "pk.eyJ1IjoieWxxaWFvMTM0MSIsImEiOiJjamI4bnEwdXcwN2hhMzNxcXhmb2xxaWVsIn0.cXxo1gK3catZKtPykP5_7g";
     map = new mapboxgl.Map({
       container: "map",
       style: "mapbox://styles/ylqiao1341/cjb8nqfz93n1r2rnqz0e0lfvg",
       center: [long, lat],
       zoom: 15
     });
-
     map.on("load", function(e) {
       MapCallback(e);
     });
@@ -168,8 +166,6 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
           }
         });
       }
-
-
       map.addLayer({
         "id": "locations",
         "type": "symbol",
@@ -188,7 +184,6 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
           "text-anchor": "top"
         }
       });
-
       map.on('click', function(e) {
         var features = map.queryRenderedFeatures(e.point, {
           layers: ['locations']
@@ -206,23 +201,19 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
       });
     }
   }
-
   function ZeroResults() {
     reveal("zero-results");
   }
-
-
-
   function flyToStore(currentFeature, listing_src) {
     if (listing_src) {
       map.flyTo({
         center: [currentFeature.coordinates.longitude, currentFeature.coordinates.latitude],
-        zoom: 15.5
+        zoom: 14
       });
     } else {
       map.flyTo({
         center: currentFeature.geometry.coordinates,
-        zoom: 15.5
+        zoom: 14
       });
     }
 
@@ -249,9 +240,7 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
     } else {
       console.log(currentFeature);
       var popUps = document.getElementsByClassName('mapboxgl-popup');
-      if (popUps[0]) {
-        popUps[0].remove();
-      }
+      if (popUps[0]) { popUps[0].remove(); }
       console.log(currentFeature.properties.address)
       var popup = new mapboxgl.Popup({
           closeOnClick: true
@@ -273,16 +262,14 @@ angular.module('ezTakeoutApp').controller('MapCtrl', function MapCtrl($scope) {
     $("#" + name).show();
   }
 
-
   function getAttributes(name, url) {
     if (!url) {
       url = window.location.href;
     }
     name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-      results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return "";
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), res = regex.exec(url);
+    if (!res) return null;
+    if (!res[2]) return "";
+    return decodeURIComponent(res[2].replace(/\+/g, " "));
   }
 });
